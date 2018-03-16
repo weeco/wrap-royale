@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Rage",
+    "rarity": "Epic",
+    "TID": "TID_SPELL_RAGE",
+    "hitSpeedMultiplier": 135,
+    "speedMultiplier": 135,
+    "spawnSpeedMultiplier": 135,
+    "effect": "Spell_rage_hit_effect",
+    "filterFile": "sc/effects.sc",
+    "filterExportName": "filter_rage",
+    "markEffect": "Healing",
+    "audioPitchModifier": 125,
+    "scid": 9000000
+  },
+  {
+    "name": "Freeze",
+    "rarity": "Epic",
+    "TID": "TID_SPELL_FREEZE",
+    "hitSpeedMultiplier": -100,
+    "speedMultiplier": -100,
+    "spawnSpeedMultiplier": -100,
+    "filterFile": "sc/effects.sc",
+    "filterExportName": "filter_cold",
+    "scid": 9000001
+  },
+  {
+    "name": "Poison",
+    "rarity": "Epic",
+    "TID": "TID_SPELL_POISON",
+    "crownTowerDamagePercent": -65,
+    "damagePerSecond": 57,
+    "hitFrequency": 1000,
+    "effect": "PoisonSteam",
+    "filterFile": "sc/effects.sc",
+    "filterExportName": "filter_poison",
+    "enableStacking": true,
+    "scid": 9000002
+  },
+  {
+    "name": "IceWizardSlowDown",
+    "rarity": "Legendary",
+    "hitSpeedMultiplier": -35,
+    "speedMultiplier": -35,
+    "spawnSpeedMultiplier": -35,
+    "filterFile": "sc/effects.sc",
+    "filterExportName": "filter_cold",
+    "markEffect": "Healing",
+    "audioPitchModifier": 75,
+    "scid": 9000003
+  },
+  {
+    "name": "ZapFreeze",
+    "rarity": "Common",
+    "TID": "TID_SPELL_ZAP_FREEZE",
+    "hitSpeedMultiplier": -100,
+    "speedMultiplier": -100,
+    "spawnSpeedMultiplier": -100,
+    "filterFile": "sc/effects.sc",
+    "filterExportName": "filter_cold",
+    "scid": 9000004
+  },
+  {
+    "name": "Tornado",
+    "rarity": "Epic",
+    "TID": "TID_SPELL_TORNADO",
+    "crownTowerDamagePercent": -100,
+    "damagePerSecond": 44,
+    "hitFrequency": 500,
+    "filterFile": "sc/effects.sc",
+    "filterExportName": "filter_poison",
+    "markEffect": "Healing",
+    "attractPercentage": 220,
+    "controlledByParent": true,
+    "enableStacking": true,
+    "scid": 9000005
+  },
+  {
+    "name": "Clone",
+    "rarity": "Epic",
+    "TID": "TID_SPELL_CLONE",
+    "hitSpeedMultiplier": -100,
+    "speedMultiplier": -100,
+    "spawnSpeedMultiplier": -100,
+    "clone": true,
+    "scid": 9000006
+  },
+  {
+    "name": "Heal",
+    "rarity": "Rare",
+    "hitFrequency": 500,
+    "healPerSecond": 100,
+    "enableStacking": true,
+    "scid": 9000007
+  },
+  {
+    "name": "Stun",
+    "rarity": "Legendary",
+    "hitSpeedMultiplier": -100,
+    "speedMultiplier": -100,
+    "spawnSpeedMultiplier": -100,
+    "scid": 9000008
+  },
+  {
+    "name": "Invisibility",
+    "rarity": "Legendary",
+    "invisible": true,
+    "continuousEffect": "ghost_aura",
+    "scid": 9000009
+  },
+  {
+    "name": "Heal2",
+    "rarity": "Legendary",
+    "hitFrequency": 50,
+    "healPerSecond": 300,
+    "enableStacking": true,
+    "scid": 9000010
+  },
+  {
+    "name": "Frozen1",
+    "rarity": "Legendary",
+    "hitSpeedMultiplier": -35,
+    "speedMultiplier": -35,
+    "spawnSpeedMultiplier": -35,
+    "filterFile": "sc/effects.sc",
+    "filterExportName": "filter_cold",
+    "markEffect": "Healing",
+    "audioPitchModifier": 75,
+    "chainedBuff": "Frozen2",
+    "scid": 9000011
+  },
+  {
+    "name": "Frozen2",
+    "rarity": "Legendary",
+    "hitSpeedMultiplier": -70,
+    "speedMultiplier": -70,
+    "spawnSpeedMultiplier": -70,
+    "filterFile": "sc/effects.sc",
+    "filterExportName": "filter_cold",
+    "markEffect": "Healing",
+    "audioPitchModifier": 75,
+    "chainedBuff": "Frozen3",
+    "scid": 9000012
+  },
+  {
+    "name": "Frozen3",
+    "rarity": "Legendary",
+    "hitSpeedMultiplier": -100,
+    "speedMultiplier": -100,
+    "spawnSpeedMultiplier": -100,
+    "filterFile": "sc/effects.sc",
+    "filterExportName": "filter_cold",
+    "scid": 9000013
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "target": "es2017",
+    "lib": [
+      "es2017"
+    ],
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "outDir": "lib",
+    "typeRoots": [
+      "node_modules/@types",
+      "src/typings/*"
+    ]
+  },
+  "exclude": [
+    "lib",
+    "node_modules"
+  ]
+}

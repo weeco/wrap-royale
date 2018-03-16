@@ -1,0 +1,119 @@
+[
+  {
+    "name": 1,
+    "expToNextLevel": 20,
+    "summonerLevel": 1,
+    "towerLevel": 1,
+    "troopLevel": 1,
+    "decks": 1,
+    "questSlots": 1
+  },
+  {
+    "name": 2,
+    "expToNextLevel": 50,
+    "summonerLevel": 2,
+    "towerLevel": 2,
+    "troopLevel": 2,
+    "decks": 1,
+    "questSlots": 2
+  },
+  {
+    "name": 3,
+    "expToNextLevel": 100,
+    "summonerLevel": 3,
+    "towerLevel": 3,
+    "troopLevel": 3,
+    "decks": 1,
+    "questSlots": 3
+  },
+  {
+    "name": 4,
+    "expToNextLevel": 200,
+    "summonerLevel": 4,
+    "towerLevel": 4,
+    "troopLevel": 4,
+    "decks": 1,
+    "questSlots": 3
+  },
+  {
+    "name": 5,
+    "expToNextLevel": 400,
+    "summonerLevel": 5,
+    "towerLevel": 5,
+    "troopLevel": 5,
+    "decks": 1,
+    "questSlots": 3
+  },
+  {
+    "name": 6,
+    "expToNextLevel": 1000,
+    "summonerLevel": 6,
+    "towerLevel": 6,
+    "troopLevel": 6,
+    "decks": 1,
+    "questSlots": 3
+  },
+  {
+    "name": 7,
+    "expToNextLevel": 2000,
+    "summonerLevel": 7,
+    "towerLevel": 7,
+    "troopLevel": 7,
+    "decks": 1,
+    "questSlots": 3
+  },
+  {
+    "name": 8,
+    "expToNextLevel": 5000,
+    "summonerLevel": 8,
+    "towerLevel": 8,
+    "troopLevel": 8,
+    "decks": 1,
+    "questSlots": 3
+  },
+  {
+    "name": 9,
+    "expToNextLevel": 10000,
+    "summonerLevel": 9,
+    "towerLevel": 9,
+    "troopLevel": 9,
+    "decks": 1,
+    "questSlots": 3
+  },
+  {
+    "name": 10,
+    "expToNextLevel": 30000,
+    "summonerLevel": 10,
+    "towerLevel": 10,
+    "troopLevel": 10,
+    "decks": 1,
+    "questSlots": 3
+  },
+  {
+    "name": 11,
+    "expToNextLevel": 40000,
+    "summonerLevel": 11,
+    "towerLevel": 11,
+    "troopLevel": 11,
+    "decks": 1,
+    "questSlots": 3
+  },
+  {
+    "name": 12,
+    "expToNextLevel": 80000,
+    "summonerLevel": 12,
+    "towerLevel": 12,
+    "troopLevel": 12,
+    "decks": 1,
+    "questSlots": 3
+  },
+  {
+    "name": 13,
+    "expToNextLevel": 100000,
+    "summonerLevel": 13,
+    "towerLevel": 13,
+    "troopLevel": 13,
+    "decks": 1,
+    "questSlots": 3
+  }
+]

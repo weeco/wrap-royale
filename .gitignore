@@ -57,3 +57,12 @@ typings/
 # dotenv environment variables file
 .env
 
+# VisualStudio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Typescript transpiled output
+lib

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "NonMember",
+    "scid": 59000000
+  },
+  {
+    "name": "Member",
+    "apiName": "member",
+    "level": 1,
+    "TID": "TID_ALLIANCE_ROLE_MEMBER",
+    "scid": 59000001
+  },
+  {
+    "name": "Leader",
+    "apiName": "leader",
+    "level": 20,
+    "TID": "TID_ALLIANCE_ROLE_LEADER",
+    "canInvite": true,
+    "canSendMail": true,
+    "canChangeAllianceSettings": true,
+    "canAcceptJoinRequest": true,
+    "canKick": true,
+    "canBePromotedToLeader": true,
+    "scid": 59000002
+  },
+  {
+    "name": "Elder",
+    "apiName": "elder",
+    "level": 5,
+    "TID": "TID_ALLIANCE_ROLE_ELDER",
+    "canInvite": true,
+    "canAcceptJoinRequest": true,
+    "canKick": true,
+    "scid": 59000003
+  },
+  {
+    "name": "Co-leader",
+    "apiName": "coLeader",
+    "level": 10,
+    "TID": "TID_ALLIANCE_ROLE_CO_LEADER",
+    "canInvite": true,
+    "canSendMail": true,
+    "canChangeAllianceSettings": true,
+    "canAcceptJoinRequest": true,
+    "canKick": true,
+    "canBePromotedToLeader": true,
+    "canPromoteToOwnLevel": true,
+    "scid": 59000004
+  }
+]
