@@ -163,7 +163,7 @@ export class CRApi {
  */
 export interface IApiOptions {
   /**
-   * Timeout for waiting for a response until it fails. Defaults to 6000 milliseconds.
+   * Timeout for awaiting a response until it fails. Defaults to 6000 milliseconds.
    */
   timeoutMS?: number;
   /**
