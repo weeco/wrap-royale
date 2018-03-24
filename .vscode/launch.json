@@ -13,14 +13,14 @@
             "args": [
               "--timeout", "999999",
               "--colors",
-              "./dist/test"
+              "./lib/test"
             ],
             "runtimeArgs": [
               "--nolazy"
             ],
             "sourceMaps": true,
             "outFiles": [
-                "${workspaceFolder}/dist/**/*.js"
+                "${workspaceFolder}/lib/**/*.js"
             ]
         }
     ]
