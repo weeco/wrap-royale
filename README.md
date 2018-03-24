@@ -1,4 +1,6 @@
-# wrap-royale
+![Wrap Royale Banner](https://raw.githubusercontent.com/weeco/wrap-royale/master/wrap-royale.jpg)
+
+# Wrap Royale
 A promise based and feature rich library for requesting resources from Supercell's official Clash Royale API.
 
 ### Features
