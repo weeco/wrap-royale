@@ -1,5 +1,5 @@
-import { classToPlain, Exclude, Expose, plainToClass } from 'class-transformer';
 import { IApiPagination } from '../../common/types';
+import { classToPlain, Exclude, Expose, plainToClass } from '../../utils/class-transformer/index';
 import { ILocationDetails, LocationHelper } from '../../utils/LocationHelper';
 
 /**

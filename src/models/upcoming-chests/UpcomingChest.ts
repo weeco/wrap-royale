@@ -1,5 +1,5 @@
-import { classToPlain, Exclude, Expose, plainToClass } from 'class-transformer';
 import { ChestHelper, IChestDetails } from '../../index';
+import { classToPlain, Exclude, Expose, plainToClass } from '../../utils/class-transformer/index';
 
 /**
  * A chest with it's cycle index.

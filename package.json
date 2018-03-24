@@ -34,7 +34,6 @@
   "homepage": "https://github.com/weeco/wrap-royale#readme",
   "dependencies": {
     "bases": "^0.2.1",
-    "class-transformer": "^0.1.8",
     "long": "^4.0.0",
     "moment": "^2.20.1",
     "reflect-metadata": "^0.1.10",

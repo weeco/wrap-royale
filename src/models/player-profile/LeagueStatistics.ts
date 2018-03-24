@@ -1,4 +1,4 @@
-import { classToPlain, Exclude, Expose, plainToClass, Type } from 'class-transformer';
+import { classToPlain, Exclude, Expose, plainToClass, Type } from '../../utils/class-transformer/index';
 
 /**
  * The league statistics property in a playerprofile

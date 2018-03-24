@@ -1,4 +1,4 @@
-import { classToPlain, Exclude, Expose, plainToClass } from 'class-transformer';
+import { classToPlain, Exclude, Expose, plainToClass } from '../../utils/class-transformer/index';
 
 /**
  * The game mode property in battlelogs (e. g. 72000010 - which is the challenge game mode with deckselection)

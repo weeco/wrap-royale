@@ -1,6 +1,6 @@
-import { classToPlain, Exclude, Expose, plainToClass, Transform, Type } from 'class-transformer';
 import * as moment from 'moment';
 import { BattleType, Deckselection } from '../../common/types';
+import { classToPlain, Exclude, Expose, plainToClass, Transform, Type } from '../../utils/class-transformer/index';
 import { Arena, IArena } from '../common/Arena';
 import { Card } from '../common/Card';
 import { Challenge } from '../common/Challenge';

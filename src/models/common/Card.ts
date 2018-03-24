@@ -1,5 +1,5 @@
-import { classToPlain, Exclude, Expose, plainToClass } from 'class-transformer';
 import { CardHelper, ICardDetails } from '../../utils/CardHelper';
+import { classToPlain, Exclude, Expose, plainToClass } from '../../utils/class-transformer/index';
 
 /**
  * The minimum class properties which can represent a card

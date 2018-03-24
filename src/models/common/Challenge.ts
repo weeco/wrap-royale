@@ -1,4 +1,4 @@
-import { classToPlain, Exclude, Expose, plainToClass } from 'class-transformer';
+import { classToPlain, Exclude, Expose, plainToClass } from '../../utils/class-transformer/index';
 
 /**
  * The challengeId property in battlelogs (e. g. 65000000 - which is the common grand challenge)

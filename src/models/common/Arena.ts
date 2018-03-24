@@ -1,5 +1,5 @@
-import { classToPlain, Exclude, Expose, plainToClass } from 'class-transformer';
 import { ArenaHelper, IArenaDetails } from '../../utils/ArenaHelper';
+import { classToPlain, Exclude, Expose, plainToClass } from '../../utils/class-transformer/index';
 
 /**
  * Arena model

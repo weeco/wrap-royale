@@ -1,6 +1,6 @@
-import { classToPlain, Exclude, Expose, plainToClass, Transform, Type } from 'class-transformer';
 import { Role } from '../../common/types';
 import { CardHelper, ICardDetails } from '../../utils/CardHelper';
+import { classToPlain, Exclude, Expose, plainToClass, Transform, Type } from '../../utils/class-transformer/index';
 import { HashtagHelper } from '../../utils/HashtagHelper';
 import { Arena, IArena } from '../common/Arena';
 import { BaseCard, IBaseCard } from '../common/Card';

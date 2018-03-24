@@ -9,5 +9,10 @@
       "no-relative-imports": false,
       "no-implicit-dependencies": [true, "dev"]
     },
-    "rulesDirectory": []
+    "rulesDirectory": [],
+    "linterOptions": {
+      "exclude": [
+        "src/utils/class-transformer/**/*"
+      ]
+    }
 }

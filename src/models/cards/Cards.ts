@@ -1,4 +1,4 @@
-import { classToPlain, Exclude, Expose, plainToClass, Type } from 'class-transformer';
+import { classToPlain, Exclude, Expose, plainToClass, Type } from '../../utils/class-transformer/index';
 import { BaseCard, IBaseCard } from '../common/Card';
 
 /**

@@ -1,6 +1,6 @@
-import { classToPlain, Exclude, Expose, plainToClass } from 'class-transformer';
 import { Rarity } from '../../common/types';
 import { ICardDetails } from '../../utils/CardHelper';
+import { classToPlain, Exclude, Expose, plainToClass } from '../../utils/class-transformer/index';
 import { RarityHelper } from '../../utils/RarityHelper';
 import { Card, ICard } from '../common/Card';
 

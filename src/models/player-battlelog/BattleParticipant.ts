@@ -1,4 +1,4 @@
-import { classToPlain, Exclude, Expose, plainToClass, Transform, Type } from 'class-transformer';
+import { classToPlain, Exclude, Expose, plainToClass, Transform, Type } from '../../utils/class-transformer/index';
 import { HashtagHelper } from '../../utils/HashtagHelper';
 import { Card, ICard } from '../common/Card';
 import { Clan, IClan } from '../common/Clan';

@@ -1,4 +1,4 @@
-import { classToPlain, Exclude, Expose, plainToClass, Transform, Type } from 'class-transformer';
+import { classToPlain, Exclude, Expose, plainToClass, Transform, Type } from '../../utils/class-transformer/index';
 import { AccessType } from '../../common/types';
 import { HashtagHelper } from '../../utils/HashtagHelper';
 import { HiLo, IHiLo } from '../common/HiLo';
