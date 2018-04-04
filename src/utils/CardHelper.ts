@@ -135,14 +135,14 @@ export module CardHelper {
    * Returns all card details sorted by their name.
    */
   export function getAllCardsSortedByName():  Map<string, ICardDetails> {
-    return this.cardsByName;
+    return cardsByName;
   }
 
   /**
    * Returns all card details sorted by their id.
    */
   export function getAllCardsSortedById():  Map<number, ICardDetails> {
-    return this.cardsById;
+    return cardsById;
   }
 
   /**
