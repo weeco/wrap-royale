@@ -132,6 +132,20 @@ export module CardHelper {
   }
 
   /**
+   * Returns all card details sorted by their name.
+   */
+  export function getAllCardsSortedByName():  Map<string, ICardDetails> {
+    return this.cardsByName;
+  }
+
+  /**
+   * Returns all card details sorted by their id.
+   */
+  export function getAllCardsSortedById():  Map<number, ICardDetails> {
+    return this.cardsById;
+  }
+
+  /**
    * Pass an array of cardIds and you will get all "not mentioned" Cards back.
    *
    * Example: You want to pass all cardIds of a player's found cards. This method will return an array of cardDetails
