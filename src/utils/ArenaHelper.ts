@@ -7,6 +7,7 @@ import { IText, LocaleHelper } from './LocaleHelper';
  * Helper class for retrieving card details by name or decklink id
  */
 export module ArenaHelper {
+  const arenaByName: Map<string, IArenaDetails> = new Map();
   const arenaById: Map<number, IArenaDetails> = new Map();
   const arenaByNumber: Map<number, IArenaDetails> = new Map();
   const arenasJsonPath: string = path.join(__dirname, '..', '..', 'assets', 'arenas.json');
@@ -35,6 +36,7 @@ export module ArenaHelper {
       maxDonationCountRare: arena.maxDonationCountRare
     };
 
+    arenaByName.set(arena.name, arenaDetails);
     arenaById.set(arena.scid, arenaDetails);
     if (arena.arena != null) {
       arenaByNumber.set(arena.arena, arenaDetails);
@@ -55,6 +57,14 @@ export module ArenaHelper {
    */
   export function getArenaByNumber(arenaNumber: number): IArenaDetails {
     return arenaByNumber.get(arenaNumber);
+  }
+
+  /**
+   * Returns arena details by a given name from the CSV files (not TID).
+   * @param arenaName Arena name (TrainingCamp, Arena1, Arena_L, ...)
+   */
+  export function getArenaByCSVName(arenaName: string): IArenaDetails {
+    return arenaByName.get(arenaName);
   }
 
   /**
