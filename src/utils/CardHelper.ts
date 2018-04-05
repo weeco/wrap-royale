@@ -14,7 +14,7 @@ export enum CardType {
  * Helper class for retrieving card details by name or decklink id
  */
 export module CardHelper {
-  const cardsById: Map<number, ICardDetails> = new Map();
+  export const cardsById: Map<number, ICardDetails> = new Map();
   const cardsByName: Map<string, ICardDetails> = new Map();
   const cardIds: Set<number> = new Set();
   const cdnUrl: string = 'https://www.clashcrown.com';
@@ -129,20 +129,6 @@ export module CardHelper {
     if (card == null) { throw new TypeError(`A card with the name '${cardName}' does not exist for the Locale '${locale}'`); }
 
     return card;
-  }
-
-  /**
-   * Returns all card details sorted by their name.
-   */
-  export function getAllCardsSortedByName():  Map<string, ICardDetails> {
-    return cardsByName;
-  }
-
-  /**
-   * Returns all card details sorted by their id.
-   */
-  export function getAllCardsSortedById():  Map<number, ICardDetails> {
-    return cardsById;
   }
 
   /**
