@@ -14,7 +14,6 @@ A promise based and feature rich library for requesting resources from Supercell
 - [x] Helper modules for Cards, Arenas and Badges which allow you to get additional details (e. g. image urls or additional game related data).
 
 **And coming up on the roadmap...**
-- [ ] Own library as replacement for the used class-transformer (more focus on performance).
 - [ ] Improve test coverage to 100% (also write tests to test responses against the according interfaces).
 - [ ] Add useful comments for all models' properties, for a better intellisense experience (help wanted).
 

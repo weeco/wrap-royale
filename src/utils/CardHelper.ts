@@ -14,7 +14,7 @@ export enum CardType {
  * Helper class for retrieving card details by name or decklink id
  */
 export module CardHelper {
-  const cardsById: Map<number, ICardDetails> = new Map();
+  export const cardsById: Map<number, ICardDetails> = new Map();
   const cardsByName: Map<string, ICardDetails> = new Map();
   const cardIds: Set<number> = new Set();
   const cdnUrl: string = 'https://www.clashcrown.com';
