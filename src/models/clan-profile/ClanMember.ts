@@ -1,5 +1,5 @@
-import { classToPlain, Exclude, Expose, plainToClass, Transform, Type } from '../../utils/class-transformer/index';
 import { Role } from '../../common/types';
+import { classToPlain, Exclude, Expose, plainToClass, Transform, Type } from '../../utils/class-transformer/index';
 import { HashtagHelper } from '../../utils/HashtagHelper';
 import { Arena, IArena } from '../common/Arena';
 import { HiLo, IHiLo } from '../common/HiLo';
