@@ -1,6 +1,6 @@
 {
   "name": "wrap-royale",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A promise based, feature-rich library for requestion resources from Supercell's official Clash Royale API, written in TypeScript.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
