@@ -13,9 +13,10 @@ export enum CardType {
 /**
  * Helper class for retrieving card details by name or decklink id
  */
-export module CardHelper {
+export namespace CardHelper {
   export const cardsById: Map<number, ICardDetails> = new Map();
   const cardsByName: Map<string, ICardDetails> = new Map();
+  const cardsBySlug: Map<string, ICardDetails> = new Map();
   const cardIds: Set<number> = new Set();
   const cdnUrl: string = 'https://www.clashcrown.com';
 
@@ -29,19 +30,25 @@ export module CardHelper {
   // Load cards object array into Maps
   for (const card of spells) {
     const cardNormalized: ICardDetails = convertToCardDetails(card, CardType.Spell);
-    if (cardNormalized == null) { continue; }
+    if (cardNormalized == null) {
+      continue;
+    }
     addCardToMaps(cardNormalized);
   }
 
   for (const card of characters) {
     const cardNormalized: ICardDetails = convertToCardDetails(card, CardType.Character);
-    if (cardNormalized == null) { continue; }
+    if (cardNormalized == null) {
+      continue;
+    }
     addCardToMaps(cardNormalized);
   }
 
   for (const card of buildings) {
     const cardNormalized: ICardDetails = convertToCardDetails(card, CardType.Building);
-    if (cardNormalized == null) { continue; }
+    if (cardNormalized == null) {
+      continue;
+    }
     addCardToMaps(cardNormalized);
   }
 
@@ -53,10 +60,13 @@ export module CardHelper {
   function addCardToMaps(card: ICardDetails): void {
     cardIds.add(card.id);
     cardsById.set(card.id, card);
+
+    // Cards by name + slug for each locale
     const keys: (keyof typeof Locales)[] = <(keyof typeof Locales)[]>Object.keys(Locales);
     for (const key of keys) {
       const locale: string = Locales[key];
       cardsByName.set(`${locale}-${card.name[locale]}`, card);
+      cardsBySlug.set(`${locale}-${card.slug[locale]}`, card);
     }
   }
 
@@ -101,7 +111,9 @@ export module CardHelper {
    */
   export function getCardById(cardId: number): ICardDetails {
     const card: ICardDetails = cardsById.get(cardId);
-    if (card == null) { throw new TypeError(`A card with the id '${cardId}' does not exist`); }
+    if (card == null) {
+      throw new TypeError(`A card with the id '${cardId}' does not exist`);
+    }
 
     return card;
   }
@@ -126,7 +138,23 @@ export module CardHelper {
    */
   export function getCardByName(cardName: string, locale: Locales = Locales.En): ICardDetails {
     const card: ICardDetails = cardsByName.get(`${locale}-${cardName}`);
-    if (card == null) { throw new TypeError(`A card with the name '${cardName}' does not exist for the Locale '${locale}'`); }
+    if (card == null) {
+      throw new TypeError(`A card with the name '${cardName}' does not exist for the Locale '${locale}'`);
+    }
+
+    return card;
+  }
+
+  /**
+   * Returns card details by card name.
+   * @param cardName The card's name.
+   * @param locale In what language the given name is.
+   */
+  export function getCardBySlug(cardSlugName: string, locale: Locales = Locales.En): ICardDetails {
+    const card: ICardDetails = cardsBySlug.get(`${locale}-${cardSlugName}`);
+    if (card == null) {
+      throw new TypeError(`A card with the slug '${cardSlugName}' does not exist for the Locale '${locale}'`);
+    }
 
     return card;
   }

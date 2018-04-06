@@ -7,6 +7,7 @@ import { CardHelper, ICardDetails, Locales } from '../index';
 const expect: Chai.ExpectStatic = chai.expect;
 const exampleCardIds: number[] = [27000000, 27000010, 26000000, 26000057, 28000000, 28000016];
 const exampleCardNames: string[] = ['Knight', 'Heal', 'The Log', 'Goblin Barrel'];
+const exampleCardSlugNames: string[] = ['knight', 'heal', 'the-log', 'goblin-barrel'];
 
 describe('Card Helper', () => {
   it('should return a card by id which contains all object properties', () => {
@@ -15,12 +16,18 @@ describe('Card Helper', () => {
       expect(card).to.not.equal(undefined, 'No card has been returned');
       expect(card).to.be.a('object');
 
-      expect(card.id).to.be.a('number').to.be.at.least(26000000).and.be.lessThan(29000000);
+      expect(card.id)
+        .to.be.a('number')
+        .to.be.at.least(26000000)
+        .and.be.lessThan(29000000);
       expect(card.cardKey).to.be.a('string');
       expect(card.description).to.be.a('object');
       expect(card.iconUrls).to.be.a('object');
       expect(card.name).to.be.a('object');
-      expect(card.elixir).to.be.a('number').to.be.at.least(1).and.be.lte(10);
+      expect(card.elixir)
+        .to.be.a('number')
+        .to.be.at.least(1)
+        .and.be.lte(10);
       expect(card.slug).to.be.a('object');
       expect(card.unlockArena).to.be.a('string');
     }
@@ -30,7 +37,8 @@ describe('Card Helper', () => {
     const cardDetails: ICardDetails[] = CardHelper.getCardsByIds(exampleCardIds);
     expect(cardDetails.length).to.equal(
       exampleCardIds.length,
-      'Number of returned cardDetails does not match the number of provided card ids.');
+      'Number of returned cardDetails does not match the number of provided card ids.'
+    );
   });
 
   it('should return a card by name which contains all object properties', () => {
@@ -39,12 +47,41 @@ describe('Card Helper', () => {
       expect(card).to.not.equal(undefined, `No card has been returned for ${name}`);
       expect(card).to.be.a('object');
 
-      expect(card.id).to.be.a('number').to.be.at.least(26000000).and.be.lessThan(29000000);
+      expect(card.id)
+        .to.be.a('number')
+        .to.be.at.least(26000000)
+        .and.be.lessThan(29000000);
       expect(card.cardKey).to.be.a('string');
       expect(card.description).to.be.a('object');
       expect(card.iconUrls).to.be.a('object');
       expect(card.name).to.be.a('object');
-      expect(card.elixir).to.be.a('number').to.be.at.least(1).and.be.lte(10);
+      expect(card.elixir)
+        .to.be.a('number')
+        .to.be.at.least(1)
+        .and.be.lte(10);
+      expect(card.slug).to.be.a('object');
+      expect(card.unlockArena).to.be.a('string');
+    }
+  });
+
+  it('should return a card by slug which contains all object properties', () => {
+    for (const name of exampleCardSlugNames) {
+      const card: ICardDetails = CardHelper.getCardBySlug(name);
+      expect(card).to.not.equal(undefined, `No card has been returned for ${name}`);
+      expect(card).to.be.a('object');
+
+      expect(card.id)
+        .to.be.a('number')
+        .to.be.at.least(26000000)
+        .and.be.lessThan(29000000);
+      expect(card.cardKey).to.be.a('string');
+      expect(card.description).to.be.a('object');
+      expect(card.iconUrls).to.be.a('object');
+      expect(card.name).to.be.a('object');
+      expect(card.elixir)
+        .to.be.a('number')
+        .to.be.at.least(1)
+        .and.be.lte(10);
       expect(card.slug).to.be.a('object');
       expect(card.unlockArena).to.be.a('string');
     }
@@ -58,7 +95,9 @@ describe('Card Helper', () => {
       const keys: (keyof typeof Locales)[] = <(keyof typeof Locales)[]>Object.keys(Locales);
       for (const key of keys) {
         const locale: Locales = Locales[key];
-        expect(card.name[locale]).to.be.a('string').length.above(0);
+        expect(card.name[locale])
+          .to.be.a('string')
+          .length.above(0);
       }
     }
   });
@@ -71,7 +110,9 @@ describe('Card Helper', () => {
       const keys: (keyof typeof Locales)[] = <(keyof typeof Locales)[]>Object.keys(Locales);
       for (const key of keys) {
         const locale: Locales = Locales[key];
-        expect(card.slug[locale]).to.be.a('string').length.above(0);
+        expect(card.slug[locale])
+          .to.be.a('string')
+          .length.above(0);
       }
     }
   });
@@ -80,8 +121,6 @@ describe('Card Helper', () => {
     const characterIds: number[] = [...Array(62).keys()].map((x: number) => x + 26000000);
     characterIds.push(27000010, 28000016); // Add one building and one spell as these come from other json files.
     const cardDetails: ICardDetails[] = CardHelper.getToBeFoundCards(characterIds);
-    expect(cardDetails.length).to.gte(
-      24,
-      'Number of to be found cardDetails is too small.');
+    expect(cardDetails.length).to.gte(24, 'Number of to be found cardDetails is too small.');
   });
 });
