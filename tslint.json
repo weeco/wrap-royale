@@ -7,7 +7,8 @@
     "jsRules": {},
     "rules": {
       "no-relative-imports": false,
-      "no-implicit-dependencies": [true, "dev"]
+      "no-implicit-dependencies": [true, "dev"],
+      "quotemark": [true, "single", "avoid-escape"]
     },
     "rulesDirectory": [],
     "linterOptions": {
