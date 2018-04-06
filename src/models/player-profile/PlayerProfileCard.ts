@@ -9,8 +9,7 @@ import { Card, ICard } from '../common/Card';
  */
 @Exclude()
 export class PlayerProfileCard extends Card {
-  @Expose()
-  public count: number;
+  @Expose() public count: number;
 
   public static FROM_JSON(playerProfileJson: {}): PlayerProfileCard {
     return plainToClass(PlayerProfileCard, playerProfileJson);
@@ -30,8 +29,8 @@ export class PlayerProfileCard extends Card {
     return {
       ...this.toJson(),
       ...impersonalizedCardDetails,
-        cardUpgradeCount: RarityHelper.getCardUpgradeCount(impersonalizedCardDetails.rarity, this.level),
-        isMaxed: RarityHelper.getRarityDetailsByName(impersonalizedCardDetails.rarity).levelCount === this.level
+      cardUpgradeCount: RarityHelper.getCardUpgradeCount(impersonalizedCardDetails.rarity, this.level),
+      isMaxed: RarityHelper.getRarityDetailsByName(impersonalizedCardDetails.rarity).levelCount === this.level
     };
   }
 
@@ -46,10 +45,16 @@ export class PlayerProfileCard extends Card {
 
     // Iterate 13 times to ensure we iterate through all possible card levels (1-13 common card)
     for (let i: number = 0; i < 13; i += 1) {
-      if (maxLevel === currentLevel) { break; }
+      if (maxLevel === currentLevel) {
+        break;
+      }
       const cardsNeededForUpgrade: number = RarityHelper.getCardUpgradeCount(rarity, currentLevel);
-      if (cardsNeededForUpgrade == null || cardsNeededForUpgrade < 0) { break; }
-      if (availableCardCount < cardsNeededForUpgrade) { break; }
+      if (cardsNeededForUpgrade == null || cardsNeededForUpgrade < 0) {
+        break;
+      }
+      if (availableCardCount < cardsNeededForUpgrade) {
+        break;
+      }
       availableCardCount -= cardsNeededForUpgrade;
       currentLevel += 1;
     }

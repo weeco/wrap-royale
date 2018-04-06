@@ -30,7 +30,11 @@ export class PlayerBattleLog {
   @Expose({ name: 'type' })
   public battleType: BattleType;
 
-  @Transform((battleDateString: string) => moment(battleDateString).utc().toDate())
+  @Transform((battleDateString: string) =>
+    moment(battleDateString)
+      .utc()
+      .toDate()
+  )
   @Expose()
   public battleTime: Date;
 
@@ -46,11 +50,9 @@ export class PlayerBattleLog {
   @Expose()
   public challengeId?: number;
 
-  @Expose()
-  public challengeWinCountBefore?: number;
+  @Expose() public challengeWinCountBefore?: number;
 
-  @Expose()
-  public deckSelection: Deckselection;
+  @Expose() public deckSelection: Deckselection;
 
   @Type(() => BattleParticipant)
   @Expose()

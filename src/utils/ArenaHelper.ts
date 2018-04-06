@@ -6,7 +6,7 @@ import { IText, LocaleHelper } from './LocaleHelper';
 /**
  * Helper class for retrieving card details by name or decklink id
  */
-export module ArenaHelper {
+export namespace ArenaHelper {
   const arenaByName: Map<string, IArenaDetails> = new Map();
   const arenaById: Map<number, IArenaDetails> = new Map();
   const arenaByNumber: Map<number, IArenaDetails> = new Map();

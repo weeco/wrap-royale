@@ -1,4 +1,5 @@
-import { IApiAchievements,
+import {
+  IApiAchievements,
   IApiArena,
   IApiBattleParticipant,
   IApiBattleParticipantCard,
@@ -23,7 +24,7 @@ import { CardHelper } from '../utils/CardHelper';
  * Until there is an @Alias decorator in the class-transformer library (issue: https://github.com/typestack/class-transformer/issues/121)
  * we need to preprocess the JSON before passing it into the model class.
  */
-export module ApiResponseNormalizer {
+export namespace ApiResponseNormalizer {
   /**
    * Supercell's api doesn't return card ids, but card names. We can transform the card names
    * into card ids, so that we internally only use cardIds.
@@ -100,7 +101,9 @@ export module ApiResponseNormalizer {
   }
 
   function convertBaseCard(card: IApiCard): null | IApiPlayerProfileCurrentFavouriteCardNormalized {
-    if (card == null) { return null; }
+    if (card == null) {
+      return null;
+    }
 
     return {
       id: CardHelper.getCardByName(card.name).id

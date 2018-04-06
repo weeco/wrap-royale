@@ -96,12 +96,17 @@ export interface IRarityDetails {
 /**
  * Helper module for retrieving rarity details depending on a card's rarity
  */
-export module RarityHelper {
+export namespace RarityHelper {
   const rarityByName: Map<string, IRarityDetails> = new Map();
 
   const raritiesJsonPath: string = path.join(__dirname, '..', '..', 'assets', 'rarities.json');
   const rarities: IRarityJson[] = <IRarityJson[]>JSON.parse(fs.readFileSync(raritiesJsonPath, 'utf8'));
-  const tournamentCapByRarity: Map<string, number> = new Map([['Common', 9], ['Rare', 7], ['Epic', 4], ['Legendary', 1]]);
+  const tournamentCapByRarity: Map<string, number> = new Map([
+    ['Common', 9],
+    ['Rare', 7],
+    ['Epic', 4],
+    ['Legendary', 1]
+  ]);
 
   // Load rarities into Map
   rarities.forEach((rarity: IRarityJson) => {

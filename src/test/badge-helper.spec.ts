@@ -11,7 +11,10 @@ describe('Badge Helper', () => {
   it('should return a badge by id which contains all object properties', () => {
     for (const id of exampleBadgeIds) {
       const badge: IBadgeDetails = BadgeHelper.getBadgeById(id);
-      expect(badge.id).to.be.a('number').to.be.at.least(16000000).and.be.lessThan(17000000);
+      expect(badge.id)
+        .to.be.a('number')
+        .to.be.at.least(16000000)
+        .and.be.lessThan(17000000);
       expect(badge.iconUrls).to.be.a('object');
     }
   });

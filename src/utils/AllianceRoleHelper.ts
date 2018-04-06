@@ -5,7 +5,7 @@ import { IText, LocaleHelper, Locales } from './LocaleHelper';
 /**
  * Helper class for retrieving badge details by badgeId
  */
-export module AllianceRoleHelper {
+export namespace AllianceRoleHelper {
   const roleById: Map<number, IRoleDetails> = new Map();
   const roleByName: Map<string, IRoleDetails> = new Map();
   const roleByApiName: Map<string, IRoleDetails> = new Map();

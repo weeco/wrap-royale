@@ -6,8 +6,7 @@ import { classToPlain, Exclude, Expose, plainToClass } from '../../utils/class-t
  */
 @Exclude()
 export class BaseCard {
-  @Expose()
-  public id: number;
+  @Expose() public id: number;
 
   public static FROM_JSON(baseCardJson: {}): BaseCard {
     return plainToClass(BaseCard, baseCardJson);
@@ -37,8 +36,7 @@ export interface IBaseCard {
  */
 @Exclude()
 export class Card extends BaseCard {
-  @Expose()
-  public level: number;
+  @Expose() public level: number;
 }
 
 /**

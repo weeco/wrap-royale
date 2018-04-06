@@ -12,17 +12,13 @@ export class BattleParticipant {
   @Expose()
   public tag: string;
 
-  @Expose()
-  public name: string = void 0;
+  @Expose() public name: string = void 0;
 
-  @Expose()
-  public startingTrophies: number = void 0;
+  @Expose() public startingTrophies: number = void 0;
 
-  @Expose()
-  public trophyChange: number = void 0;
+  @Expose() public trophyChange: number = void 0;
 
-  @Expose()
-  public crowns: number = void 0;
+  @Expose() public crowns: number = void 0;
 
   @Type(() => Clan)
   @Expose()

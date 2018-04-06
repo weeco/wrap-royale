@@ -7,7 +7,7 @@ import { IHiLo } from '../models/common/HiLo';
  * Helper class for ingame related things like player tags
  */
 
-export module HashtagHelper {
+export namespace HashtagHelper {
   const characterSet: string = '0289PYLQGRJCUV';
   const characterCount: number = characterSet.length;
 
@@ -16,7 +16,9 @@ export module HashtagHelper {
    * @param hashtag Player- or clantag
    */
   export function normalizeHashtag(hashtag: string): string {
-    return hashtag.trim().toUpperCase()
+    return hashtag
+      .trim()
+      .toUpperCase()
       .replace('#', '')
       .replace(/O/g, '0'); // replace capital O with zero
   }
@@ -27,14 +29,20 @@ export module HashtagHelper {
    */
   export function isValidHashtag(hashtag: string): boolean {
     // Simple validation first before doing computationally more expensive stuff
-    if (hashtag === undefined || hashtag === null) { return false; }
-    if (hashtag.length > 14 || hashtag.length < 3) { return false; }
+    if (hashtag === undefined || hashtag === null) {
+      return false;
+    }
+    if (hashtag.length > 14 || hashtag.length < 3) {
+      return false;
+    }
 
     const tagNormalized: string = normalizeHashtag(hashtag);
     const tagCharacters: string[] = ['0', '2', '8', '9', 'P', 'Y', 'L', 'Q', 'G', 'R', 'J', 'C', 'U', 'V'];
 
     for (const char of tagNormalized) {
-      if (tagCharacters.indexOf(char) === -1) { return false; }
+      if (tagCharacters.indexOf(char) === -1) {
+        return false;
+      }
     }
 
     return true;
@@ -74,7 +82,9 @@ export module HashtagHelper {
    * @param low Player's low bits
    */
   export function getHashtagFromHiLo(high: number, low: number): string {
-    if (high >= 255) { return ''; }
+    if (high >= 255) {
+      return '';
+    }
 
     let id: Long = new Long(low, 0, true);
     // tslint:disable-next-line:no-bitwise

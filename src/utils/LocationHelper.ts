@@ -16,7 +16,7 @@ export interface ILocationDetails extends IApiLocation {
 /**
  * Helper class for retrieving locations by id or name
  */
-export module LocationHelper {
+export namespace LocationHelper {
   const locationById: Map<number | string, ILocationDetails> = new Map();
   const locationBySlug: Map<string, ILocationDetails> = new Map();
   const slugOptions: {} = {

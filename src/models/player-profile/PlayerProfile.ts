@@ -25,58 +25,42 @@ export class PlayerProfile {
     return new HiLo(hiLo.high, hiLo.low);
   }
 
-  @Expose()
-  public name: string;
+  @Expose() public name: string;
 
   @Expose()
   public get nameNormalized(): string {
     return this.name.normalize('NFD').toLowerCase();
   }
 
-  @Expose()
-  public expLevel: number;
+  @Expose() public expLevel: number;
 
-  @Expose()
-  public trophies: number;
+  @Expose() public trophies: number;
 
-  @Expose()
-  public bestTrophies: number;
+  @Expose() public bestTrophies: number;
 
-  @Expose()
-  public wins: number;
+  @Expose() public wins: number;
 
-  @Expose()
-  public losses: number;
+  @Expose() public losses: number;
 
-  @Expose()
-  public battleCount: number;
+  @Expose() public battleCount: number;
 
-  @Expose()
-  public threeCrownWins: number;
+  @Expose() public threeCrownWins: number;
 
-  @Expose()
-  public challengeCardsWon: number;
+  @Expose() public challengeCardsWon: number;
 
-  @Expose()
-  public challengeMaxWins: number;
+  @Expose() public challengeMaxWins: number;
 
-  @Expose()
-  public tournamentCardsWon: number;
+  @Expose() public tournamentCardsWon: number;
 
-  @Expose()
-  public tournamentBattleCount: number;
+  @Expose() public tournamentBattleCount: number;
 
-  @Expose()
-  public role: Role;
+  @Expose() public role: Role;
 
-  @Expose()
-  public donations: number;
+  @Expose() public donations: number;
 
-  @Expose()
-  public donationsReceived: number;
+  @Expose() public donationsReceived: number;
 
-  @Expose()
-  public totalDonations: number;
+  @Expose() public totalDonations: number;
 
   @Expose()
   @Type(() => Clan)

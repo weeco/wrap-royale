@@ -11,10 +11,18 @@ describe('Chest Helper', () => {
   it('should return a chest by name which contains all object properties', () => {
     for (const name of exampleChestNames) {
       const chest: IChestDetails = ChestHelper.getChestByName(name);
-      expect(chest.name.en).to.be.a('string').to.be.equal(name);
+      expect(chest.name.en)
+        .to.be.a('string')
+        .to.be.equal(name);
       expect(chest.slug.en).to.be.a('string');
-      expect(chest.iconUrls.tiny).to.be.a('string').to.contain('https://').to.contain('.png');
-      expect(chest.iconUrlsOpened.tiny).to.be.a('string').to.contain('https://').to.contain('.png');
+      expect(chest.iconUrls.tiny)
+        .to.be.a('string')
+        .to.contain('https://')
+        .to.contain('.png');
+      expect(chest.iconUrlsOpened.tiny)
+        .to.be.a('string')
+        .to.contain('https://')
+        .to.contain('.png');
     }
   });
 });

@@ -36,8 +36,7 @@ export class ClanProfile {
     return new HiLo(hiLo.high, hiLo.low);
   }
 
-  @Expose()
-  public name: string;
+  @Expose() public name: string;
 
   @Expose()
   public get nameNormalized(): string {
@@ -47,36 +46,27 @@ export class ClanProfile {
   @Expose({ name: 'type' })
   public accessType: AccessType;
 
-  @Expose()
-  public description: string;
+  @Expose() public description: string;
 
-  @Expose()
-  public badgeId: number;
+  @Expose() public badgeId: number;
 
-  @Expose()
-  public clanScore: number;
+  @Expose() public clanScore: number;
 
   @Type(() => Location)
   @Expose()
   public location: Location;
 
-  @Expose()
-  public requiredTrophies: number;
+  @Expose() public requiredTrophies: number;
 
-  @Expose()
-  public donationsPerWeek: number;
+  @Expose() public donationsPerWeek: number;
 
-  @Expose()
-  public clanChestStatus: ClanChestStatus;
+  @Expose() public clanChestStatus: ClanChestStatus;
 
-  @Expose()
-  public clanChestPoints: number;
+  @Expose() public clanChestPoints: number;
 
-  @Expose()
-  public clanChestLevel: number;
+  @Expose() public clanChestLevel: number;
 
-  @Expose()
-  public clanChestMaxLevel: number;
+  @Expose() public clanChestMaxLevel: number;
 
   @Expose({ name: 'members' })
   public membersCount: number;
@@ -128,7 +118,9 @@ export class ClanProfile {
   public getTopMembersByChestPoints(limit: number = 5): ClanMember[] {
     if (this.memberListByClanChestPoints == null) {
       const chestParticipants: ClanMember[] = this.memberList.filter((x: ClanMember) => x.clanChestPoints != null);
-      this.memberListByClanChestPoints = chestParticipants.sort((a: ClanMember, b: ClanMember) => b.clanChestPoints - a.clanChestPoints);
+      this.memberListByClanChestPoints = chestParticipants.sort(
+        (a: ClanMember, b: ClanMember) => b.clanChestPoints - a.clanChestPoints
+      );
     }
 
     return this.memberListByClanChestPoints.slice(0, limit);

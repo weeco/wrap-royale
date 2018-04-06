@@ -6,11 +6,9 @@ import { classToPlain, Exclude, Expose, plainToClass } from '../../utils/class-t
  */
 @Exclude()
 export class UpcomingChest {
-  @Expose()
-  public index: number;
+  @Expose() public index: number;
 
-  @Expose()
-  public name: string;
+  @Expose() public name: string;
 
   public static FROM_JSON(playerProfileJson: {}): UpcomingChest {
     return plainToClass(UpcomingChest, playerProfileJson);

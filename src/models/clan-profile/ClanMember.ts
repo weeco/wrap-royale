@@ -20,36 +20,27 @@ export class ClanMember {
     return new HiLo(hiLo.high, hiLo.low);
   }
 
-  @Expose()
-  public name: string;
+  @Expose() public name: string;
 
-  @Expose()
-  public role: Role;
+  @Expose() public role: Role;
 
-  @Expose()
-  public expLevel: number;
+  @Expose() public expLevel: number;
 
-  @Expose()
-  public trophies: number;
+  @Expose() public trophies: number;
 
   @Type(() => Arena)
   @Expose()
   public arena: Arena;
 
-  @Expose()
-  public clanRank: number;
+  @Expose() public clanRank: number;
 
-  @Expose()
-  public previousClanRank: number;
+  @Expose() public previousClanRank: number;
 
-  @Expose()
-  public donations: number;
+  @Expose() public donations: number;
 
-  @Expose()
-  public donationsReceived: number;
+  @Expose() public donationsReceived: number;
 
-  @Expose()
-  public clanChestPoints?: number;
+  @Expose() public clanChestPoints?: number;
 
   public static FROM_JSON(clanMemberJson: {}): ClanMember {
     return plainToClass(ClanMember, clanMemberJson);

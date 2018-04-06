@@ -12,20 +12,15 @@ export class LocalPlayerRanking {
   @Expose()
   public tag: string = void 0;
 
-  @Expose()
-  public name: string = void 0;
+  @Expose() public name: string = void 0;
 
-  @Expose()
-  public expLevel: number = void 0;
+  @Expose() public expLevel: number = void 0;
 
-  @Expose()
-  public trophies: number = void 0;
+  @Expose() public trophies: number = void 0;
 
-  @Expose()
-  public rank: number = void 0;
+  @Expose() public rank: number = void 0;
 
-  @Expose()
-  public previousRank: number = void 0;
+  @Expose() public previousRank: number = void 0;
 
   @Type(() => Clan)
   @Expose()

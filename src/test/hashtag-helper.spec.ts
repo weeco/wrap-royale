@@ -10,13 +10,18 @@ describe('Hashtag Helper', () => {
   it('should normalize a hashtag', () => {
     const invalidHashtag: string = '#2POOP';
     const normalizedTag: string = HashtagHelper.normalizeHashtag(invalidHashtag);
-    expect(normalizedTag).to.not.include('#').and.to.not.include('O');
+    expect(normalizedTag)
+      .to.not.include('#')
+      .and.to.not.include('O');
   });
 
   it('should reject invalid hashtags', () => {
     const invalidHashtags: string[] = ['2ABC', '2P', '2PPPPPPPPPPPPPP'];
     for (const tag of invalidHashtags) {
-      expect(HashtagHelper.isValidHashtag(tag)).to.be.equal(false, `Hashtag ${tag} is invalid, but has been recognized as valid`);
+      expect(HashtagHelper.isValidHashtag(tag)).to.be.equal(
+        false,
+        `Hashtag ${tag} is invalid, but has been recognized as valid`
+      );
     }
   });
 

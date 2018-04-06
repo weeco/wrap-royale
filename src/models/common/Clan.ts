@@ -10,11 +10,9 @@ export class Clan {
   @Expose()
   public tag: string;
 
-  @Expose()
-  public name: string;
+  @Expose() public name: string;
 
-  @Expose()
-  public badgeId: number;
+  @Expose() public badgeId: number;
 
   public static FROM_JSON(clanJson: {}): Clan {
     return plainToClass(Clan, clanJson);

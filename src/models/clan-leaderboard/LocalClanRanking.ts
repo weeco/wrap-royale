@@ -11,24 +11,19 @@ export class LocalClanRanking {
   @Expose()
   public tag: string;
 
-  @Expose()
-  public name: string;
+  @Expose() public name: string;
 
-  @Expose()
-  public rank: number;
+  @Expose() public rank: number;
 
-  @Expose()
-  public previousRank: number;
+  @Expose() public previousRank: number;
 
   @Type(() => Location)
   @Expose()
   public location: Location;
 
-  @Expose()
-  public badgeId: number;
+  @Expose() public badgeId: number;
 
-  @Expose()
-  public clanScore: number;
+  @Expose() public clanScore: number;
 
   @Expose({ name: 'members' })
   public memberCount: number;

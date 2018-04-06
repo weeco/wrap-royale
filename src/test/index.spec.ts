@@ -6,7 +6,8 @@ import * as chaiAsPromised from 'chai-as-promised';
 import * as dotenv from 'dotenv';
 import * as Joi from 'joi';
 import {} from 'mocha';
-import { BaseCard,
+import {
+  BaseCard,
   ClanMember,
   CRApi,
   IApiOptions,
@@ -42,11 +43,15 @@ describe('CR Api', () => {
   // Assign Token and Baseurl as variable from .env file
   before(() => {
     const envVarsSchema: Joi.ObjectSchema = Joi.object({
-      CR_API_TEST_TOKEN: Joi.string().required()
+      CR_API_TEST_TOKEN: Joi.string()
+        .required()
         .description('API Token is required for testing'),
-      CR_API_TEST_BASEURL: Joi.string().required()
+      CR_API_TEST_BASEURL: Joi.string()
+        .required()
         .description('Base url is required for testing')
-    }).unknown().required();
+    })
+      .unknown()
+      .required();
     const { error, value: envVars } = Joi.validate(process.env, envVarsSchema);
     if (error !== null) {
       throw new Error(`Config validation error: ${error.message}`);
@@ -227,7 +232,7 @@ describe('CR Api', () => {
       }).timeout(7000);
 
       // tslint:disable-next-line:mocha-no-side-effect-code
-      it('should return a player\'s to be found cards', async () => {
+      it("should return a player's to be found cards", async () => {
         const profile: PlayerProfile = await api.playerProfile('2PP');
         const toBeFoundCards: ICardDetails[] = profile.getToBeFoundCards();
         expect(toBeFoundCards.length).to.be.gte(75);
@@ -239,9 +244,9 @@ describe('CR Api', () => {
       });
     });
 
-    describe('Player\'s upcoming chests', () => {
+    describe("Player's upcoming chests", () => {
       // tslint:disable-next-line:mocha-no-side-effect-code
-      it('should return a player\'s upcoming chests', async () => {
+      it("should return a player's upcoming chests", async () => {
         const chests: UpcomingChests = await api.playersUpcomingChests('2UYLVUQY');
         expect(chests.regularChests.length).to.be.equal(9);
         expect(chests.specialChests.length).to.be.gte(1);
@@ -250,7 +255,7 @@ describe('CR Api', () => {
       }).timeout(7000);
 
       // tslint:disable-next-line:mocha-no-side-effect-code
-      it('should return the serialized player\'s upcoming chests', async () => {
+      it("should return the serialized player's upcoming chests", async () => {
         const chests: UpcomingChests = await api.playersUpcomingChests('YQULRC8Y');
         const json: IUpcomingChests = chests.toJson();
         expect(json).to.be.a('object');
@@ -264,9 +269,9 @@ describe('CR Api', () => {
       });
     });
 
-    describe('Player\'s battle logs', () => {
+    describe("Player's battle logs", () => {
       // tslint:disable-next-line:mocha-no-side-effect-code
-      it('should return a player\'s battle logs', async () => {
+      it("should return a player's battle logs", async () => {
         const logs: PlayerBattleLog[] = await api.playersBattleLogs('YQULRC8Y');
         expect(logs).to.be.an('array');
         // Check if cards have a card id in all logs
@@ -295,7 +300,7 @@ describe('CR Api', () => {
       }).timeout(7000);
 
       // tslint:disable-next-line:mocha-no-side-effect-code
-      it('should return the serialized player\'s battle logs', async () => {
+      it("should return the serialized player's battle logs", async () => {
         const logs: PlayerBattleLog[] = await api.playersBattleLogs('YQULRC8Y');
         const json: IPlayerBattleLog[] = logs.map((x: PlayerBattleLog) => x.toJson());
         expect(json).to.be.an('array');
@@ -327,33 +332,41 @@ describe('CR Api', () => {
       // tslint:disable-next-line:mocha-no-side-effect-code
       it('should return a clan profile', async () => {
         const profile: ClanProfile = await api.clanProfile('82V9V');
-        expect(profile.name).to.be.a('string').which.equals('Munich Warriors');
+        expect(profile.name)
+          .to.be.a('string')
+          .which.equals('Munich Warriors');
         expect(profile.clanScore).to.be.a('number');
       }).timeout(7000);
 
       // tslint:disable-next-line:mocha-no-side-effect-code
-      it('should return a clan\'s top donators', async () => {
+      it("should return a clan's top donators", async () => {
         const profile: ClanProfile = await api.clanProfile('82V9V');
         const topDonators: ClanMember[] = profile.getTopMembersByDonations(5);
-        expect(topDonators).to.be.an('array').with.length(5);
+        expect(topDonators)
+          .to.be.an('array')
+          .with.length(5);
       }).timeout(7000);
 
       // tslint:disable-next-line:mocha-no-side-effect-code
-      it('should return a clan\'s top players by trophies', async () => {
+      it("should return a clan's top players by trophies", async () => {
         const profile: ClanProfile = await api.clanProfile('82V9V');
         const topPlayers: ClanMember[] = profile.getTopMembersByTrophies(5);
-        expect(topPlayers).to.be.an('array').with.length(5);
+        expect(topPlayers)
+          .to.be.an('array')
+          .with.length(5);
       }).timeout(7000);
 
       // tslint:disable-next-line:mocha-no-side-effect-code
-      it('should return a clan\'s top players by contributed clan chest points', async () => {
+      it("should return a clan's top players by contributed clan chest points", async () => {
         const profile: ClanProfile = await api.clanProfile('82V9V');
         const topContributors: ClanMember[] = profile.getTopMembersByChestPoints(5);
-        expect(topContributors).to.be.an('array').with.length(5);
+        expect(topContributors)
+          .to.be.an('array')
+          .with.length(5);
       }).timeout(7000);
 
       // tslint:disable-next-line:mocha-no-side-effect-code
-      it('should return a clan\'s country code', async () => {
+      it("should return a clan's country code", async () => {
         const profile: ClanProfile = await api.clanProfile('2PPP');
         expect(profile.location.getLocationDetails().countryCode).to.equal('SE');
       }).timeout(7000);

@@ -5,8 +5,7 @@ import { classToPlain, Exclude, Expose, plainToClass } from '../../utils/class-t
  */
 @Exclude()
 export class Challenge {
-  @Expose()
-  public id: number;
+  @Expose() public id: number;
 
   public static FROM_JSON(challengeModeJson: {}): Challenge {
     return plainToClass(Challenge, challengeModeJson);

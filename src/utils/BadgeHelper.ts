@@ -3,7 +3,7 @@ import { IIconUrls } from '../common/types';
 /**
  * Helper class for retrieving badge details by badgeId
  */
-export module BadgeHelper {
+export namespace BadgeHelper {
   const badgeById: Map<number, IBadgeDetails> = new Map();
 
   const minBadgeId: number = 16000000;

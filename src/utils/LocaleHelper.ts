@@ -56,7 +56,7 @@ export interface IText {
 /**
  * Helper class for retrieving card details by name or decklink id
  */
-export module LocaleHelper {
+export namespace LocaleHelper {
   const textById: Map<string, IText> = new Map();
   const textsJsonPath: string = path.join(__dirname, '..', '..', 'assets', 'texts.json');
   const texts: IText[] = <IText[]>JSON.parse(fs.readFileSync(textsJsonPath, 'utf8'));

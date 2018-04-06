@@ -1,5 +1,7 @@
-import { CRApi as CoreApi,
-  IApiCards, IApiLocation,
+import {
+  CRApi as CoreApi,
+  IApiCards,
+  IApiLocation,
   IApiPlayerProfile,
   IApiPlayersBattleLog,
   IApiPlayersUpcomingChests
@@ -13,7 +15,8 @@ import { PlayerBattleLog } from './models/player-battlelog/PlayerBattleLog';
 import { PlayerLeaderboard } from './models/player-leaderboard/PlayerLeaderboard';
 import { PlayerProfile } from './models/player-profile/PlayerProfile';
 import { UpcomingChests } from './models/upcoming-chests/UpcomingChests';
-import { ApiResponseNormalizer,
+import {
+  ApiResponseNormalizer,
   IApiPlayerBattleLogNormalized,
   IApiPlayerProfileNormalized
 } from './utils/ApiResponseNormalizer';
@@ -38,7 +41,7 @@ export class CRApi {
       timeoutMS: 6000,
       validateTags: true
     };
-    const fullOptions: IApiOptions = {...defaultOptions, ...options};
+    const fullOptions: IApiOptions = { ...defaultOptions, ...options };
     this.options = fullOptions;
 
     this.api = new CoreApi(uri, token, fullOptions);
@@ -123,7 +126,9 @@ export class CRApi {
   public async playersBattleLogs(playerTag: string): Promise<PlayerBattleLog[]> {
     const validatedTag: string = this.validateTag(playerTag);
     const battleLogs: IApiPlayersBattleLog[] = await this.api.playersBattleLogs(validatedTag);
-    const battleLogsNormalized: IApiPlayerBattleLogNormalized[] = battleLogs.map(ApiResponseNormalizer.normalizePlayerBattleLogs);
+    const battleLogsNormalized: IApiPlayerBattleLogNormalized[] = battleLogs.map(
+      ApiResponseNormalizer.normalizePlayerBattleLogs
+    );
 
     return battleLogsNormalized.map((x: {}) => PlayerBattleLog.FROM_JSON(x));
   }

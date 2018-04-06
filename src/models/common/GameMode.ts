@@ -5,8 +5,7 @@ import { classToPlain, Exclude, Expose, plainToClass } from '../../utils/class-t
  */
 @Exclude()
 export class GameMode {
-  @Expose()
-  public id: number = void 0;
+  @Expose() public id: number = void 0;
 
   public static FROM_JSON(gameModeJson: {}): GameMode {
     return plainToClass(GameMode, gameModeJson);

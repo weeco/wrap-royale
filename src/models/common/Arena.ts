@@ -9,8 +9,7 @@ export class Arena {
   /**
    * Supercell's arena id (54000000 - 54000020)
    */
-  @Expose()
-  public id: number;
+  @Expose() public id: number;
 
   public static FROM_JSON(arenaJson: {}): Arena {
     return plainToClass(Arena, arenaJson);

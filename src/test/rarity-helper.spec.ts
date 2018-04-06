@@ -13,7 +13,7 @@ describe('Rarity Helper', () => {
     expect(rarityDetails.upgradeMaterialCount[11]).to.equal(5000);
   });
 
-  it('should return card count until next level upgrade for a given rarity and it\'s level', () => {
+  it("should return card count until next level upgrade for a given rarity and it's level", () => {
     const upgradeCount: number = RarityHelper.getCardUpgradeCount(Rarity.Common, 12);
     expect(upgradeCount).to.equal(5000);
   });

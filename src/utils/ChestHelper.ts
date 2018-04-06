@@ -4,7 +4,7 @@ import { IText, LocaleHelper, Locales } from './LocaleHelper';
 /**
  * Helper class for retrieving badge details by badgeId
  */
-export module ChestHelper {
+export namespace ChestHelper {
   const chestsByName: Map<string, IChestDetails> = new Map();
   const cdnUrl: string = 'https://www.clashcrown.com';
 

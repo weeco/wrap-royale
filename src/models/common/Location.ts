@@ -7,8 +7,7 @@ import { ILocationDetails, LocationHelper } from '../../utils/LocationHelper';
  */
 @Exclude()
 export class Location {
-  @Expose()
-  public id: number;
+  @Expose() public id: number;
 
   public static FROM_JSON(locationJson: {}): Location {
     return plainToClass(Location, locationJson);
