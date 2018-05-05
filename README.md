@@ -87,9 +87,9 @@ api.cards()
 ```
 
 ## Class CRApi
-The class CRApi offers all available endpoints as promise based functions. Each function returns a Promise which resolves to one or multiple class instances (e. g. Card). These class offers additional properties and methods (such as `getCardDetails()`, `toJSON()` or the static method `fromJSON()`).
+The class CRApi offers all available endpoints as promise based functions. Each function returns a Promise which resolves to one or multiple class instances (e. g. Card). These classes offer additional properties and methods (such as `getCardDetails()`, `toJSON()` or the static method `fromJSON()`).
 
-If you want to get a serialized class instance instead (for example to store the minimum required information in a database) please read [serialization](#serialization).
+If you want to serialize the class instance (for example to store the minimum required information in a database) please read [serialization](#serialization).
 
 ### Instantion
 When creating an instance of the CRApi class you can pass a couple options which are described below:
