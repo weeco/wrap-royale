@@ -4,7 +4,11 @@ import {
   IApiLocation,
   IApiPlayerProfile,
   IApiPlayersBattleLog,
-  IApiPlayersUpcomingChests
+  IApiPlayersUpcomingChests,
+  IApiClanLeaderboard,
+  IApiLocations,
+  IApiPlayerLeaderboard,
+  IApiClanProfile
 } from 'wrap-royale-core';
 import { Cards, ICards } from './models/cards/Cards';
 import { ClanLeaderboard } from './models/clan-leaderboard/ClanLeaderboard';
@@ -21,6 +25,7 @@ import {
   IApiPlayerProfileNormalized
 } from './utils/ApiResponseNormalizer';
 import { HashtagHelper } from './utils/HashtagHelper';
+import { ClanWarLeaderboard } from './models/clan-war-leaderboard/ClanWarLeaderboard';
 
 /**
  * Clash Royale API
@@ -61,7 +66,7 @@ export class CRApi {
    * Returns a list of all available locations.
    */
   public async locations(): Promise<Locations> {
-    const locations: {} = await this.api.locations();
+    const locations: IApiLocations = await this.api.locations();
 
     return Locations.FROM_JSON(locations);
   }
@@ -81,7 +86,17 @@ export class CRApi {
    * @param locationId Identifier of the location to retrieve rankings for. Use 'global' for global leaderboards.
    */
   public async clanLeaderboard(locationId: number | 'global'): Promise<ClanLeaderboard> {
-    const clanLeaderboard: {} = await this.api.clanLeaderboard(locationId);
+    const clanLeaderboard: IApiClanLeaderboard = await this.api.clanLeaderboard(locationId);
+
+    return ClanLeaderboard.FROM_JSON(clanLeaderboard);
+  }
+
+  /**
+   * Get clan war rankings for a specific location.
+   * @param locationId Identifier of the location to retrieve rankings for. Use 'global' for global leaderboards.
+   */
+  public async clanWarLeaderboard(locationId: number | 'global'): Promise<ClanWarLeaderboard> {
+    const clanLeaderboard: IApiClanLeaderboard = await this.api.clanWarLeaderboard(locationId);
 
     return ClanLeaderboard.FROM_JSON(clanLeaderboard);
   }
@@ -91,7 +106,7 @@ export class CRApi {
    * @param locationId Identifier of the location to retrieve rankings for. Use 'global' for global leaderboards.
    */
   public async playerLeaderboard(locationId: number | 'global'): Promise<PlayerLeaderboard> {
-    const playerLeaderboard: {} = await this.api.playerLeaderboard(locationId);
+    const playerLeaderboard: IApiPlayerLeaderboard = await this.api.playerLeaderboard(locationId);
 
     return PlayerLeaderboard.FROM_JSON(playerLeaderboard);
   }
@@ -139,7 +154,7 @@ export class CRApi {
    */
   public async clanProfile(clanTag: string): Promise<ClanProfile> {
     const validatedTag: string = this.validateTag(clanTag);
-    const clanProfile: {} = await this.api.clanProfile(validatedTag);
+    const clanProfile: IApiClanProfile = await this.api.clanProfile(validatedTag);
 
     return ClanProfile.FROM_JSON(clanProfile);
   }

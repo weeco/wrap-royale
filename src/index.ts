@@ -23,6 +23,8 @@ export * from './models/clan-leaderboard/ClanLeaderboard';
 export * from './models/clan-leaderboard/LocalClanRanking';
 export * from './models/clan-profile/ClanProfile';
 export * from './models/clan-profile/ClanMember';
+export * from './models/clan-war-leaderboard/ClanWarLeaderboard';
+export * from './models/clan-war-leaderboard/LocalClanWarRanking';
 export * from './models/common/Arena';
 export * from './models/common/Card';
 export * from './models/common/Challenge';

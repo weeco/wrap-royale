@@ -8,7 +8,11 @@ import * as Joi from 'joi';
 import {} from 'mocha';
 import {
   BaseCard,
+  Cards,
+  ClanLeaderboard,
   ClanMember,
+  ClanProfile,
+  ClanWarLeaderboard,
   CRApi,
   IApiOptions,
   ICardDetails,
@@ -16,21 +20,21 @@ import {
   IChestDetails,
   IClanLeaderboard,
   IClanProfile,
+  IClanWarLeaderboard,
   ILocation,
+  ILocations,
   IPlayerBattleLog,
   IPlayerLeaderboard,
   IPlayerProfile,
-  PlayerProfileCard
+  IUpcomingChests,
+  Location,
+  Locations,
+  PlayerBattleLog,
+  PlayerLeaderboard,
+  PlayerProfile,
+  PlayerProfileCard,
+  UpcomingChests
 } from '../index';
-import { Cards } from '../models/cards/Cards';
-import { ClanLeaderboard } from '../models/clan-leaderboard/ClanLeaderboard';
-import { ClanProfile } from '../models/clan-profile/ClanProfile';
-import { Location } from '../models/common/Location';
-import { ILocations, Locations } from '../models/locations/Locations';
-import { PlayerBattleLog } from '../models/player-battlelog/PlayerBattleLog';
-import { PlayerLeaderboard } from '../models/player-leaderboard/PlayerLeaderboard';
-import { PlayerProfile } from '../models/player-profile/PlayerProfile';
-import { IUpcomingChests, UpcomingChests } from '../models/upcoming-chests/UpcomingChests';
 
 dotenv.config();
 chai.use(chaiAsPromised);
@@ -184,6 +188,29 @@ describe('CR Api', () => {
         const id: number = 57000094; // Germany
         const rankings: ClanLeaderboard = await api.clanLeaderboard(id);
         const json: IClanLeaderboard = rankings.toJson();
+        expect(json).to.be.a('object');
+        expect(json).to.be.not.an.instanceOf(ClanLeaderboard);
+        expect(json.fetchedAt).to.be.a('date');
+        expect(json.items).to.be.an('array');
+        expect(json.items.length).to.equal(200);
+      }).timeout(7000);
+    });
+
+    describe('Local clan war rankings', () => {
+      // tslint:disable-next-line:mocha-no-side-effect-code
+      it('should return a clan war leaderboard for Germany', async () => {
+        const id: number = 57000094; // Germany
+        const rankings: ClanWarLeaderboard = await api.clanWarLeaderboard(id);
+        expect(rankings.items).to.be.an('array');
+        expect(rankings.fetchedAt).to.be.a('date');
+        expect(rankings.items.length).to.be.equal(200);
+      }).timeout(7000);
+
+      // tslint:disable-next-line:mocha-no-side-effect-code
+      it('should return a serialized clan war leaderboard for Germany', async () => {
+        const id: number = 57000094; // Germany
+        const rankings: ClanWarLeaderboard = await api.clanWarLeaderboard(id);
+        const json: IClanWarLeaderboard = rankings.toJson();
         expect(json).to.be.a('object');
         expect(json).to.be.not.an.instanceOf(ClanLeaderboard);
         expect(json.fetchedAt).to.be.a('date');
