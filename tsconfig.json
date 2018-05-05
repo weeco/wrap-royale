@@ -11,7 +11,7 @@
     "emitDecoratorMetadata": true,
     "moduleResolution": "node",
     "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noUnusedParameters": false,
     "sourceMap": true,
     "outDir": "lib",
     "typeRoots": [
