@@ -1,18 +1,19 @@
 import {
   CRApi as CoreApi,
   IApiCards,
-  IApiLocation,
-  IApiPlayerProfile,
-  IApiPlayersBattleLog,
-  IApiPlayersUpcomingChests,
   IApiClanLeaderboard,
+  IApiClanProfile,
+  IApiLocation,
   IApiLocations,
   IApiPlayerLeaderboard,
-  IApiClanProfile
+  IApiPlayerProfile,
+  IApiPlayersBattleLog,
+  IApiPlayersUpcomingChests
 } from 'wrap-royale-core';
 import { Cards, ICards } from './models/cards/Cards';
 import { ClanLeaderboard } from './models/clan-leaderboard/ClanLeaderboard';
 import { ClanProfile } from './models/clan-profile/ClanProfile';
+import { ClanWarLeaderboard } from './models/clan-war-leaderboard/ClanWarLeaderboard';
 import { Location } from './models/common/Location';
 import { Locations } from './models/locations/Locations';
 import { PlayerBattleLog } from './models/player-battlelog/PlayerBattleLog';
@@ -25,7 +26,6 @@ import {
   IApiPlayerProfileNormalized
 } from './utils/ApiResponseNormalizer';
 import { HashtagHelper } from './utils/HashtagHelper';
-import { ClanWarLeaderboard } from './models/clan-war-leaderboard/ClanWarLeaderboard';
 
 /**
  * Clash Royale API
