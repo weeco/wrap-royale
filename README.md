@@ -3,6 +3,9 @@
 # Wrap Royale
 A promise based and feature rich library for requesting resources from Supercell's official Clash Royale API.
 
+[![Build Status](https://travis-ci.org/weeco/wrap-royale.svg?branch=master)](https://travis-ci.org/weeco/wrap-royale)
+[![npm](https://img.shields.io/npm/v//wrap-royale.svg)](https://www.npmjs.com/package/wrap-royale)
+
 ### Features
 
 - [x] Promise based wrapper functions for API requests.
