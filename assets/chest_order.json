@@ -1,7 +1,7 @@
 [
   {
     "name": "MainCycle",
-    "chests": [
+    "chest": [
       "Silver",
       "Silver",
       "Silver",
@@ -242,31 +242,34 @@
       "Silver",
       "Gold",
       "Silver"
-    ]
+    ],
+    "oneTime": false
   },
   {
     "name": "Quest_earlygame_1",
-    "chests": [
+    "chest": [
       "Gold",
       "Magic",
       "Gold",
       "Giant"
     ],
-    "arenaThreshold": "TrainingCamp"
+    "arenaThreshold": "TrainingCamp",
+    "oneTime": false
   },
   {
     "name": "Quest_earlygame_2",
-    "chests": [
+    "chest": [
       "Gold",
       "Giant",
       "Gold",
       "Magic"
     ],
-    "arenaThreshold": "TrainingCamp"
+    "arenaThreshold": "TrainingCamp",
+    "oneTime": false
   },
   {
     "name": "Quest_lategame_1",
-    "chests": [
+    "chest": [
       "Gold",
       "Magic",
       "Gold",
@@ -280,11 +283,12 @@
       "Gold",
       "Epic"
     ],
-    "arenaThreshold": "Arena5"
+    "arenaThreshold": "Arena5",
+    "oneTime": false
   },
   {
     "name": "Quest_lategame_2",
-    "chests": [
+    "chest": [
       "Gold",
       "Magic",
       "Gold",
@@ -298,11 +302,12 @@
       "Epic",
       "Magic"
     ],
-    "arenaThreshold": "Arena5"
+    "arenaThreshold": "Arena5",
+    "oneTime": false
   },
   {
     "name": "Quest_lategame_3",
-    "chests": [
+    "chest": [
       "Gold",
       "Magic",
       "Gold",
@@ -316,11 +321,12 @@
       "Legendary",
       "Giant"
     ],
-    "arenaThreshold": "Arena5"
+    "arenaThreshold": "Arena5",
+    "oneTime": false
   },
   {
     "name": "Quest_lategame_4",
-    "chests": [
+    "chest": [
       "Gold",
       "Magic",
       "Gold",
@@ -334,11 +340,12 @@
       "Magic",
       "Giant"
     ],
-    "arenaThreshold": "Arena5"
+    "arenaThreshold": "Arena5",
+    "oneTime": false
   },
   {
     "name": "Quest_lategame_5",
-    "chests": [
+    "chest": [
       "Gold",
       "Giant",
       "Legendary",
@@ -352,11 +359,12 @@
       "Gold",
       "Giant"
     ],
-    "arenaThreshold": "Arena5"
+    "arenaThreshold": "Arena5",
+    "oneTime": false
   },
   {
     "name": "Quest_lategame_6",
-    "chests": [
+    "chest": [
       "Gold",
       "Giant",
       "Gold",
@@ -370,11 +378,12 @@
       "Epic",
       "Giant"
     ],
-    "arenaThreshold": "Arena5"
+    "arenaThreshold": "Arena5",
+    "oneTime": false
   },
   {
     "name": "Quest_lategame_7",
-    "chests": [
+    "chest": [
       "Gold",
       "Giant",
       "Super",
@@ -388,11 +397,12 @@
       "Gold",
       "Legendary"
     ],
-    "arenaThreshold": "Arena5"
+    "arenaThreshold": "Arena5",
+    "oneTime": false
   },
   {
     "name": "Quest_lategame_8",
-    "chests": [
+    "chest": [
       "Gold",
       "Giant",
       "Epic",
@@ -406,11 +416,12 @@
       "Gold",
       "Magic"
     ],
-    "arenaThreshold": "Arena5"
+    "arenaThreshold": "Arena5",
+    "oneTime": false
   },
   {
     "name": "Quest_lategame_9",
-    "chests": [
+    "chest": [
       "Gold",
       "Super",
       "Gold",
@@ -424,11 +435,12 @@
       "Giant",
       "Magic"
     ],
-    "arenaThreshold": "Arena5"
+    "arenaThreshold": "Arena5",
+    "oneTime": false
   },
   {
     "name": "Quest_lategame_10",
-    "chests": [
+    "chest": [
       "Gold",
       "Legendary",
       "Gold",
@@ -442,11 +454,12 @@
       "Magic",
       "Giant"
     ],
-    "arenaThreshold": "Arena5"
+    "arenaThreshold": "Arena5",
+    "oneTime": false
   },
   {
     "name": "Quest_arena3_super",
-    "chests": [
+    "chest": [
       "Super"
     ],
     "arenaThreshold": "Arena3",

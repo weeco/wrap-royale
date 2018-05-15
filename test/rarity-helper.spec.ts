@@ -2,7 +2,7 @@
  * Test rarity helper module
  */
 import * as chai from 'chai';
-import { IRarityDetails, Rarity, RarityHelper } from '../index';
+import { IRarityDetails, Rarity, RarityHelper } from '../src/index';
 
 const expect: Chai.ExpectStatic = chai.expect;
 

@@ -15,7 +15,7 @@ export namespace AllianceRoleHelper {
   for (const role of roles) {
     const roleDetails: IRoleDetails = {
       id: role.scid,
-      name: LocaleHelper.getTextById(role.TID),
+      name: role.TID == null ? null : LocaleHelper.getTextById(role.TID),
       apiName: role.apiName,
       level: role.level,
       TID: role.TID,

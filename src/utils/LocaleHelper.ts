@@ -20,7 +20,7 @@ export enum Locales {
   Ar = 'ar',
   Pt = 'pt',
   Cn = 'cn',
-  Cnt = 'cnt',
+  Cnt = 'CNT',
   Fa = 'fa',
   Id = 'id',
   Ms = 'ms',
@@ -88,7 +88,12 @@ export namespace LocaleHelper {
    * @param textId The TID whose translations should be returned
    */
   export function getTextById(textId: string): IText {
-    return textById.get(textId);
+    const text: IText = textById.get(textId);
+    if (text == null) {
+      throw new Error(`For TID ${textId} there is no translated object available`);
+    }
+
+    return text;
   }
 
   /**

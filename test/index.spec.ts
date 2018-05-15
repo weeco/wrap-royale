@@ -34,7 +34,7 @@ import {
   PlayerProfile,
   PlayerProfileCard,
   UpcomingChests
-} from '../index';
+} from '../src/index';
 
 dotenv.config();
 chai.use(chaiAsPromised);

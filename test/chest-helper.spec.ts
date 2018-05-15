@@ -2,7 +2,7 @@
  * Test chest helper module
  */
 import * as chai from 'chai';
-import { ChestHelper, IChestDetails } from '../index';
+import { ChestHelper, IChestDetails } from '../src/index';
 
 const expect: Chai.ExpectStatic = chai.expect;
 const exampleChestNames: string[] = ['Silver Chest', 'Wooden Chest', 'Super Magical Chest'];

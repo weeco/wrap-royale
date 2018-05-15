@@ -2,7 +2,7 @@
  * Hashtag helper module
  */
 import * as chai from 'chai';
-import { HashtagHelper, IHiLo } from '../index';
+import { HashtagHelper, IHiLo } from '../src/index';
 
 const expect: Chai.ExpectStatic = chai.expect;
 

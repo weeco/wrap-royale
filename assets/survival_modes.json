@@ -43,40 +43,12 @@
       22000
     ],
     "rewardSpellCount": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0
-    ],
-    "rewardSpell": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
     ],
     "rewardSpellMaxCount": 0,
     "itemExportName": "tournament_item_open",
     "confirmExportName": "popup_tournament_open_confirm",
     "TID": "TID_PUBLIC_TOURNAMENT_GOLD",
-    "cardTheme": "",
     "scid": 65000000
   },
   {
@@ -123,40 +95,12 @@
       2000
     ],
     "rewardSpellCount": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0
-    ],
-    "rewardSpell": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
     ],
     "rewardSpellMaxCount": 0,
     "itemExportName": "tournament_item_open",
     "confirmExportName": "popup_tournament_open_confirm",
     "TID": "TID_PUBLIC_TOURNAMENT_BRONZE",
-    "cardTheme": "",
     "scid": 65000001
   },
   {
@@ -203,40 +147,11 @@
       2000
     ],
     "rewardSpellCount": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0
-    ],
-    "rewardSpell": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
     ],
     "rewardSpellMaxCount": 0,
     "itemExportName": "tournament_item_open",
     "confirmExportName": "popup_tournament_blind_challenge_confirm",
-    "TID": "",
-    "cardTheme": "",
     "scid": 65000002
   },
   {
@@ -283,40 +198,11 @@
       11000
     ],
     "rewardSpellCount": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0
-    ],
-    "rewardSpell": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
     ],
     "rewardSpellMaxCount": 0,
     "itemExportName": "tournament_item_open",
     "confirmExportName": "popup_tournament_2x_elixir_challenge_confirm",
-    "TID": "",
-    "cardTheme": "",
     "scid": 65000003
   },
   {
@@ -363,40 +249,11 @@
       2000
     ],
     "rewardSpellCount": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0
-    ],
-    "rewardSpell": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
     ],
     "rewardSpellMaxCount": 0,
     "itemExportName": "tournament_item_open",
     "confirmExportName": "popup_tournament_blind_challenge_confirm",
-    "TID": "",
-    "cardTheme": "",
     "scid": 65000004
   },
   {
@@ -443,40 +300,11 @@
       11000
     ],
     "rewardSpellCount": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0
-    ],
-    "rewardSpell": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
     ],
     "rewardSpellMaxCount": 0,
     "itemExportName": "tournament_item_open",
     "confirmExportName": "popup_tournament_open_confirm",
-    "TID": "",
-    "cardTheme": "",
     "scid": 65000005
   },
   {
@@ -523,40 +351,11 @@
       2000
     ],
     "rewardSpellCount": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0
-    ],
-    "rewardSpell": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
     ],
     "rewardSpellMaxCount": 0,
     "itemExportName": "tournament_item_open",
     "confirmExportName": "popup_tournament_open_confirm",
-    "TID": "",
-    "cardTheme": "",
     "scid": 65000006
   },
   {
@@ -603,40 +402,11 @@
       22000
     ],
     "rewardSpellCount": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0
-    ],
-    "rewardSpell": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
     ],
     "rewardSpellMaxCount": 0,
     "itemExportName": "tournament_item_open",
     "confirmExportName": "popup_tournament_open_confirm",
-    "TID": "",
-    "cardTheme": "",
     "scid": 65000007
   },
   {
@@ -715,7 +485,6 @@
     "rewardSpellMaxCount": 1,
     "itemExportName": "tournament_item_open",
     "confirmExportName": "popup_tournament_legendary_challenge_confirm",
-    "TID": "",
     "cardTheme": "ElectroWizard",
     "scid": 65000008
   },
@@ -763,40 +532,11 @@
       2000
     ],
     "rewardSpellCount": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0
-    ],
-    "rewardSpell": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
     ],
     "rewardSpellMaxCount": 0,
     "itemExportName": "tournament_item_open",
     "confirmExportName": "popup_tournament_open_confirm",
-    "TID": "",
-    "cardTheme": "",
     "scid": 65000009
   },
   {
@@ -875,8 +615,6 @@
     "rewardSpellMaxCount": 0,
     "itemExportName": "tournament_item_open",
     "confirmExportName": "popup_tournament_legendary_challenge_confirm",
-    "TID": "",
-    "cardTheme": "",
     "scid": 65000010
   },
   {
@@ -955,8 +693,6 @@
     "rewardSpellMaxCount": 0,
     "itemExportName": "tournament_item_open",
     "confirmExportName": "popup_tournament_legendary_challenge_confirm",
-    "TID": "",
-    "cardTheme": "",
     "scid": 65000011
   },
   {
@@ -1003,40 +739,11 @@
       2000
     ],
     "rewardSpellCount": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0
-    ],
-    "rewardSpell": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
     ],
     "rewardSpellMaxCount": 0,
     "itemExportName": "tournament_item_open",
     "confirmExportName": "popup_tournament_open_confirm",
-    "TID": "",
-    "cardTheme": "",
     "scid": 65000012
   },
   {
@@ -1083,40 +790,11 @@
       2000
     ],
     "rewardSpellCount": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0
-    ],
-    "rewardSpell": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
     ],
     "rewardSpellMaxCount": 0,
     "itemExportName": "tournament_item_open",
     "confirmExportName": "popup_tournament_open_confirm",
-    "TID": "",
-    "cardTheme": "",
     "scid": 65000013
   },
   {
@@ -1163,40 +841,11 @@
       22000
     ],
     "rewardSpellCount": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0
-    ],
-    "rewardSpell": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
     ],
     "rewardSpellMaxCount": 0,
     "itemExportName": "tournament_item_open",
     "confirmExportName": "popup_tournament_open_confirm",
-    "TID": "",
-    "cardTheme": "",
     "scid": 65000014
   },
   {
@@ -1243,40 +892,11 @@
       2000
     ],
     "rewardSpellCount": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0
-    ],
-    "rewardSpell": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
     ],
     "rewardSpellMaxCount": 0,
     "itemExportName": "tournament_item_open",
     "confirmExportName": "popup_tournament_open_confirm",
-    "TID": "",
-    "cardTheme": "",
     "scid": 65000015
   }
 ]

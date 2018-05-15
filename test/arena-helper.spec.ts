@@ -2,7 +2,7 @@
  * Test arena helper module
  */
 import * as chai from 'chai';
-import { ArenaHelper, IArenaDetails } from '../index';
+import { ArenaHelper, IArenaDetails } from '../src/index';
 
 const expect: Chai.ExpectStatic = chai.expect;
 const exampleArenaIds: number[] = [54000001, 54000002, 54000020, 54000018, 54000024];

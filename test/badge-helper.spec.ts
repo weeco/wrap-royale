@@ -2,7 +2,7 @@
  * Test badge helper module
  */
 import * as chai from 'chai';
-import { BadgeHelper, IBadgeDetails } from '../index';
+import { BadgeHelper, IBadgeDetails } from '../src/index';
 
 const expect: Chai.ExpectStatic = chai.expect;
 const exampleBadgeIds: number[] = [16000000, 16000050, 16000179];

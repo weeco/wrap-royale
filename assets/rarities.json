@@ -83,16 +83,19 @@
     "infoTitleExportName": "rarity_common",
     "cardRarityBGExportName": "common_order",
     "sortOrder": 1,
-    "red": 153,
-    "green": 204,
-    "blue": 255,
+    "Red": [
+      153
+    ],
+    "green": [
+      204
+    ],
+    "blue": [
+      255
+    ],
     "appearEffect": "openChest_get_common",
     "buySound": "sound_buy_card_common",
     "loopEffect": "openChest_loop_common",
     "cardTxtBgFrameIdx": 0,
-    "cardGlowInstanceName": "",
-    "spellSelectedSound": "",
-    "spellAvailableSound": "",
     "rotateExportName": "card_rotate_common_short",
     "iconSWF": "sc/ui.sc",
     "iconExportName": "icon_btn_card_common"
@@ -173,16 +176,20 @@
     "infoTitleExportName": "rarity_rare",
     "cardRarityBGExportName": "rare_order",
     "sortOrder": 2,
-    "red": 255,
-    "green": 204,
-    "blue": 102,
+    "Red": [
+      255
+    ],
+    "green": [
+      204
+    ],
+    "blue": [
+      102
+    ],
     "appearEffect": "openChest_get_rare",
     "buySound": "sound_buy_card_rare",
     "loopEffect": "openChest_loop_rare",
     "cardTxtBgFrameIdx": 1,
     "cardGlowInstanceName": "card_glow_rare",
-    "spellSelectedSound": "",
-    "spellAvailableSound": "",
     "rotateExportName": "card_rotate_epic_short",
     "iconSWF": "sc/ui.sc",
     "iconExportName": "icon_btn_card_rare"
@@ -251,16 +258,20 @@
     "infoTitleExportName": "rarity_epic",
     "cardRarityBGExportName": "epic_order",
     "sortOrder": 3,
-    "red": 255,
-    "green": 153,
-    "blue": 255,
+    "Red": [
+      255
+    ],
+    "green": [
+      153
+    ],
+    "blue": [
+      255
+    ],
     "appearEffect": "openChest_get_epic",
     "buySound": "sound_buy_card_epic",
     "loopEffect": "openChest_loop_epic",
     "cardTxtBgFrameIdx": 2,
     "cardGlowInstanceName": "card_frame_glow_epic",
-    "spellSelectedSound": "",
-    "spellAvailableSound": "",
     "rotateExportName": "card_rotate_rare_short",
     "iconSWF": "sc/ui.sc",
     "iconExportName": "icon_btn_card_epic"
@@ -317,9 +328,24 @@
     "infoTitleExportName": "rarity_legendary",
     "cardRarityBGExportName": "legendary_order",
     "sortOrder": 4,
-    "red": 255,
-    "green": 153,
-    "blue": 255,
+    "Red": [
+      255,
+      255,
+      255,
+      153
+    ],
+    "green": [
+      153,
+      153,
+      255,
+      255
+    ],
+    "blue": [
+      255,
+      255,
+      153,
+      102
+    ],
     "appearEffect": "openChest_get_legendary",
     "buySound": "sound_buy_card_legendary",
     "loopEffect": "openChest_loop_legendary",
@@ -403,17 +429,29 @@
     "infoTitleExportName": "rarity_legendary",
     "cardRarityBGExportName": "legendary_order",
     "sortOrder": 4,
-    "red": 255,
-    "green": 255,
-    "blue": 255,
+    "Red": [
+      255,
+      164,
+      128,
+      64
+    ],
+    "green": [
+      255,
+      164,
+      128,
+      64
+    ],
+    "blue": [
+      255,
+      164,
+      128,
+      64
+    ],
     "appearEffect": "openChest_get_legendary",
     "buySound": "sound_buy_card_legendary",
     "loopEffect": "openChest_loop_legendary",
     "cardTxtBgFrameIdx": 3,
     "cardGlowInstanceName": "card_frame_glow_epic",
-    "spellSelectedSound": "",
-    "spellAvailableSound": "",
-    "rotateExportName": "",
     "iconSWF": "sc/ui.sc",
     "iconExportName": "icon_btn_card_epic"
   }

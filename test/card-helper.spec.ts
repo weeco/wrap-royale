@@ -2,7 +2,7 @@
  * Card helper module
  */
 import * as chai from 'chai';
-import { CardHelper, ICardDetails, Locales } from '../index';
+import { CardHelper, ICardDetails, Locales } from '../src/index';
 
 const expect: Chai.ExpectStatic = chai.expect;
 const exampleCardIds: number[] = [27000000, 27000010, 26000000, 26000057, 28000000, 28000016];

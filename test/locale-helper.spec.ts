@@ -2,7 +2,7 @@
  * Locale helper module
  */
 import * as chai from 'chai';
-import { IText, LocaleHelper } from '../index';
+import { IText, LocaleHelper } from '../src/index';
 
 const expect: Chai.ExpectStatic = chai.expect;
 const exampleTid: string = 'TID_LOADING';
