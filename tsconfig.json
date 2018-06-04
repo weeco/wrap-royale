@@ -12,6 +12,8 @@
     "moduleResolution": "node",
     "noUnusedLocals": true,
     "noUnusedParameters": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "sourceMap": true,
     "outDir": "lib",
     "typeRoots": [
