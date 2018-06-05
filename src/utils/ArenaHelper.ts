@@ -1,5 +1,4 @@
-import * as fs from 'fs';
-import * as path from 'path';
+import arenasJson from '../../assets/arenas.json';
 import { IIconUrls } from '../common/types';
 import { IText, LocaleHelper } from './LocaleHelper';
 
@@ -10,12 +9,10 @@ export namespace ArenaHelper {
   const arenaByName: Map<string, IArenaDetails> = new Map();
   const arenaById: Map<number, IArenaDetails> = new Map();
   const arenaByNumber: Map<number, IArenaDetails> = new Map();
-  const arenasJsonPath: string = path.join(__dirname, '..', '..', 'assets', 'arenas.json');
-  const arenas: IArenaJson[] = <IArenaJson[]>JSON.parse(fs.readFileSync(arenasJsonPath, 'utf8'));
 
   // Load arena object array into Map
   const cdnUrl: string = 'https://www.clashcrown.com';
-  for (const arena of arenas) {
+  for (const arena of arenasJson) {
     const arenaDetails: IArenaDetails = {
       id: arena.scid,
       name: LocaleHelper.getTextById(arena.TID),
@@ -122,56 +119,4 @@ export interface IArenaDetails {
   maxDonationCountCommon: number;
   maxDonationCountRare: number;
   maxDonationCountEpic: number;
-}
-
-interface IArenaJson {
-  /**
-   * Internal name used by Supercell (e.g.: 'Arena_L6')
-   */
-  name: string;
-  TID: string;
-  subtitleTID: string;
-  chestArena: string;
-  tvArena: string;
-  isInUse?: boolean;
-  trainingCamp?: boolean;
-  chestRewardMultiplier: number;
-  shopChestRewardMultiplier: number;
-  requestSize: number;
-  maxDonationCountCommon: number;
-  maxDonationCountRare: number;
-  maxDonationCountEpic: number;
-  iconSwf: string;
-  iconExportName: string;
-  mainMenuIconExportName: string;
-  matchmakingMaxTrophyDelta: number;
-  matchmakingMaxSeconds: number;
-  pvpLocation: string;
-  /**
-   * How many cards one can donate every day in this arena.
-   */
-  dailyDonationCapacityLimit?: number;
-  /**
-   * Rewarded amount of gold per battle.
-   */
-  battleRewardGold?: number;
-  questCycle: string;
-  scid: number;
-  arena?: number;
-  matchmakingMinTrophyDelta?: number;
-  teamVsTeamLocation?: string;
-  /**
-   * Required trophies to get into this arena
-   */
-  trophyLimit?: number;
-  /**
-   * Trophy count when you will demoted to the next lower arena.
-   */
-  demoteTrophyLimit?: number;
-  forceQuestChestCycle?: string;
-  releaseDate?: string;
-  seasonTrophyReset?: number;
-  smallIconExportName?: string;
-  seasonRewardChest?: string;
-  pveArena?: boolean;
 }

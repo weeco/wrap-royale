@@ -1,4 +1,4 @@
-import * as moment from 'moment';
+import moment from 'moment';
 import { BattleType, Deckselection } from '../../common/types';
 import { classToPlain, Exclude, Expose, plainToClass, Transform, Type } from '../../utils/class-transformer/index';
 import { Arena, IArena } from '../common/Arena';

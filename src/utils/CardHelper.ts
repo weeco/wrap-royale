@@ -1,5 +1,6 @@
-import * as fs from 'fs';
-import * as path from 'path';
+import spells_buildingsJson from '../../assets/spells_buildings.json';
+import spells_charactersJson from '../../assets/spells_characters.json';
+import spells_otherJson from '../../assets/spells_other.json';
 import { IIconUrls, Rarity } from '../common/types';
 import { IText, LocaleHelper, Locales } from './LocaleHelper';
 import { RarityHelper } from './RarityHelper';
@@ -20,15 +21,8 @@ export namespace CardHelper {
   const cardIds: Set<number> = new Set();
   const cdnUrl: string = 'https://www.clashcrown.com';
 
-  const spellsJsonpath: string = path.join(__dirname, '..', '..', 'assets', 'spells_other.json');
-  const charactersJsonPath: string = path.join(__dirname, '..', '..', 'assets', 'spells_characters.json');
-  const buildingsJsonPath: string = path.join(__dirname, '..', '..', 'assets', 'spells_buildings.json');
-  const spells: ISpellJson[] = <ISpellJson[]>JSON.parse(fs.readFileSync(spellsJsonpath, 'utf8'));
-  const characters: ICharacterJson[] = <ICharacterJson[]>JSON.parse(fs.readFileSync(charactersJsonPath, 'utf8'));
-  const buildings: IBuildingJson[] = <IBuildingJson[]>JSON.parse(fs.readFileSync(buildingsJsonPath, 'utf8'));
-
   // Load cards object array into Maps
-  for (const card of spells) {
+  for (const card of spells_otherJson) {
     const cardNormalized: ICardDetails = convertToCardDetails(card, CardType.Spell);
     if (cardNormalized == null) {
       continue;
@@ -36,7 +30,7 @@ export namespace CardHelper {
     addCardToMaps(cardNormalized);
   }
 
-  for (const card of characters) {
+  for (const card of spells_charactersJson) {
     const cardNormalized: ICardDetails = convertToCardDetails(card, CardType.Character);
     if (cardNormalized == null) {
       continue;
@@ -44,7 +38,7 @@ export namespace CardHelper {
     addCardToMaps(cardNormalized);
   }
 
-  for (const card of buildings) {
+  for (const card of spells_buildingsJson) {
     const cardNormalized: ICardDetails = convertToCardDetails(card, CardType.Building);
     if (cardNormalized == null) {
       continue;

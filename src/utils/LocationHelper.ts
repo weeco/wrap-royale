@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import * as slug from 'slug';
+import slug from 'slug';
 import { IIconUrls } from '../common/types';
 import { IApiLocation } from '../models/common/Location';
 

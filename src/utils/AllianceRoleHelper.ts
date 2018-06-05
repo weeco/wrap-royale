@@ -1,5 +1,4 @@
-import * as fs from 'fs';
-import * as path from 'path';
+import alliance_rolesJson from '../../assets/alliance_roles.json';
 import { IText, LocaleHelper, Locales } from './LocaleHelper';
 
 /**
@@ -9,10 +8,8 @@ export namespace AllianceRoleHelper {
   const roleById: Map<number, IRoleDetails> = new Map();
   const roleByName: Map<string, IRoleDetails> = new Map();
   const roleByApiName: Map<string, IRoleDetails> = new Map();
-  const rolesJsonPath: string = path.join(__dirname, '..', '..', 'assets', 'alliance_roles.json');
-  const roles: IAllianceRoleJson[] = <IAllianceRoleJson[]>JSON.parse(fs.readFileSync(rolesJsonPath, 'utf8'));
 
-  for (const role of roles) {
+  for (const role of alliance_rolesJson) {
     const roleDetails: IRoleDetails = {
       id: role.scid,
       name: role.TID == null ? null : LocaleHelper.getTextById(role.TID),
@@ -78,21 +75,6 @@ export interface IRoleDetails {
   TID: string;
   canInvite: boolean;
   canSendMail: boolean;
-  canChangeAllianceSettings?: boolean;
-  canAcceptJoinRequest?: boolean;
-  canKick?: boolean;
-  canBePromotedToLeader?: boolean;
-  canPromoteToOwnLevel?: boolean;
-}
-
-interface IAllianceRoleJson {
-  name: string;
-  scid: number;
-  apiName: string;
-  level?: number;
-  TID: string;
-  canInvite?: boolean;
-  canSendMail?: boolean;
   canChangeAllianceSettings?: boolean;
   canAcceptJoinRequest?: boolean;
   canKick?: boolean;

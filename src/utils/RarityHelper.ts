@@ -1,50 +1,8 @@
-import * as fs from 'fs';
-import * as path from 'path';
+import raritiesJson from '../../assets/rarities.json';
 import { Rarity } from '../common/types';
 import { IText, LocaleHelper } from './LocaleHelper';
 
-interface IRarityJson {
-  name: string;
-  levelCount: number;
-  relativeLevel: number;
-  mirrorRelativeLevel: number;
-  cloneRelativeLevel: number;
-  donateCapacity: number;
-  sortCapacity: number;
-  donateReward: number;
-  donateXP: number;
-  goldConversionValue: number;
-  chanceWeight: number;
-  balanceMultiplier: number;
-  upgradeExp: number[];
-  upgradeMaterialCount: number[];
-  upgradeCost: number;
-  powerLevelMultiplier?: number[];
-  refundGems: number;
-  TID: string;
-  cardBaseFileName: string;
-  bigFrameExportName: string;
-  cardBaseExportName: string;
-  stackedCardExportName: string;
-  cardRewardExportName: string;
-  castEffect: string;
-  infoTitleExportName: string;
-  cardRarityBGExportName: string;
-  sortOrder: number;
-  red: number;
-  green: number;
-  blue: number;
-  appearEffect: string;
-  buySound: string;
-  loopEffect: string;
-  cardTxtBgFrameIdx: number;
-  cardGlowInstanceName: string;
-  spellSelectedSound: string;
-  spellAvailableSound: string;
-  rotateExportName: string;
-  iconSWF: string;
-  iconExportName: string;
-}
+type IRarityJson = typeof raritiesJson[0];
 
 export interface IRarityDetails {
   name: IText;
@@ -64,7 +22,7 @@ export interface IRarityDetails {
   balanceMultiplier: number;
   upgradeExp: number[];
   upgradeMaterialCount: number[];
-  upgradeCost: number;
+  upgradeCost: number[];
   powerLevelMultiplier?: number[];
   refundGems: number;
   TID: string;
@@ -77,9 +35,9 @@ export interface IRarityDetails {
   infoTitleExportName: string;
   cardRarityBGExportName: string;
   sortOrder: number;
-  red: number;
-  green: number;
-  blue: number;
+  red: number[];
+  green: number[];
+  blue: number[];
   appearEffect: string;
   buySound: string;
   loopEffect: string;
@@ -98,9 +56,6 @@ export interface IRarityDetails {
  */
 export namespace RarityHelper {
   const rarityByName: Map<string, IRarityDetails> = new Map();
-
-  const raritiesJsonPath: string = path.join(__dirname, '..', '..', 'assets', 'rarities.json');
-  const rarities: IRarityJson[] = <IRarityJson[]>JSON.parse(fs.readFileSync(raritiesJsonPath, 'utf8'));
   const tournamentCapByRarity: Map<string, number> = new Map([
     ['Common', 9],
     ['Rare', 7],
@@ -109,10 +64,48 @@ export namespace RarityHelper {
   ]);
 
   // Load rarities into Map
-  rarities.forEach((rarity: IRarityJson) => {
+  raritiesJson.forEach((rarity: IRarityJson) => {
     const rarityName: IText = LocaleHelper.getTextById(rarity.TID);
     const rarityDetails: IRarityDetails = {
-      ...rarity,
+      levelCount: rarity.levelCount,
+      relativeLevel: rarity.relativeLevel,
+      mirrorRelativeLevel: rarity.mirrorRelativeLevel,
+      cloneRelativeLevel: rarity.cloneRelativeLevel,
+      donateCapacity: rarity.donateCapacity,
+      sortCapacity: rarity.sortCapacity,
+      donateReward: rarity.donateReward,
+      donateXP: rarity.donateXP,
+      goldConversionValue: rarity.goldConversionValue,
+      chanceWeight: rarity.chanceWeight,
+      balanceMultiplier: rarity.balanceMultiplier,
+      upgradeExp: rarity.upgradeExp,
+      upgradeMaterialCount: rarity.upgradeMaterialCount,
+      upgradeCost: rarity.upgradeCost,
+      powerLevelMultiplier: rarity.powerLevelMultiplier,
+      refundGems: rarity.refundGems,
+      TID: rarity.TID,
+      cardBaseFileName: rarity.cardBaseFileName,
+      bigFrameExportName: rarity.bigFrameExportName,
+      cardBaseExportName: rarity.cardBaseExportName,
+      stackedCardExportName: rarity.stackedCardExportName,
+      cardRewardExportName: rarity.cardRewardExportName,
+      castEffect: rarity.castEffect,
+      infoTitleExportName: rarity.infoTitleExportName,
+      cardRarityBGExportName: rarity.cardRarityBGExportName,
+      sortOrder: rarity.sortOrder,
+      red: rarity.Red,
+      green: rarity.green,
+      blue: rarity.blue,
+      appearEffect: rarity.appearEffect,
+      buySound: rarity.buySound,
+      loopEffect: rarity.loopEffect,
+      cardTxtBgFrameIdx: rarity.cardTxtBgFrameIdx,
+      cardGlowInstanceName: rarity.cardGlowInstanceName,
+      spellSelectedSound: rarity.spellSelectedSound,
+      spellAvailableSound: rarity.spellAvailableSound,
+      rotateExportName: rarity.rotateExportName,
+      iconSWF: rarity.iconSWF,
+      iconExportName: rarity.iconExportName,
       name: rarityName,
       tournamentLevelCount: tournamentCapByRarity.get(rarityName.en)
     };

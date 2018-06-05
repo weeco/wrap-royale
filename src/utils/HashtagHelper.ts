@@ -1,5 +1,6 @@
 import * as bases from 'bases';
-import * as Long from 'long';
+// tslint:disable-next-line:import-name
+import Long from 'long';
 import { gameTypes } from '../common/types';
 import { IHiLo } from '../models/common/HiLo';
 

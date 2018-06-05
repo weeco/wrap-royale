@@ -2,7 +2,7 @@
  * Test main features
  */
 import * as chai from 'chai';
-import * as chaiAsPromised from 'chai-as-promised';
+import chaiAsPromised from 'chai-as-promised';
 import * as dotenv from 'dotenv';
 import * as Joi from 'joi';
 import {} from 'mocha';
