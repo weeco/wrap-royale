@@ -1,9 +1,9 @@
 {
   "name": "wrap-royale",
-  "version": "1.4.0",
+  "version": "1.4.4",
   "description": "A promise based, feature-rich library for requestion resources from Supercell's official Clash Royale API, written in TypeScript.",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "lib/src/index.js",
+  "types": "lib/src/index.d.ts",
   "scripts": {
     "build": "tsc",
     "clean": "rimraf lib",
@@ -35,7 +35,7 @@
     "moment": "^2.22.1",
     "reflect-metadata": "^0.1.12",
     "slug": "^0.9.1",
-    "wrap-royale-core": "^1.1.1"
+    "wrap-royale-core": "^1.2.1"
   },
   "devDependencies": {
     "@types/bases": "^0.2.2",
@@ -61,7 +61,7 @@
     "ts-node": "^6.0.3",
     "tslint": "^5.10.0",
     "tslint-microsoft-contrib": "^5.0.3",
-    "typescript": "^2.9.1"
+    "typescript": "^2.9.2"
   },
   "engines": {
     "node": ">=8.0.0"
