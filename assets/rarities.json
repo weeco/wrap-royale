@@ -204,7 +204,7 @@
     "sortCapacity": 80,
     "donateReward": 500,
     "donateXP": 10,
-    "goldConversionValue": 1000,
+    "goldConversionValue": 500,
     "chanceWeight": 1,
     "balanceMultiplier": 180,
     "upgradeExp": [

@@ -11,7 +11,6 @@
     "pVEArena": false,
     "trophyLimit": 0,
     "demoteTrophyLimit": 0,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 100,
     "shopChestRewardMultiplier": 100,
     "requestSize": 10,
@@ -29,6 +28,7 @@
     "dailyDonationCapacityLimit": 60,
     "battleRewardGold": 5,
     "questCycle": "Quests_TrainingCamp",
+    "disableIn2v2": false,
     "scid": 54000000
   },
   {
@@ -43,7 +43,6 @@
     "pVEArena": false,
     "trophyLimit": 0,
     "demoteTrophyLimit": 0,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 100,
     "shopChestRewardMultiplier": 100,
     "requestSize": 10,
@@ -61,6 +60,7 @@
     "dailyDonationCapacityLimit": 60,
     "battleRewardGold": 5,
     "questCycle": "Quests_Arena1",
+    "disableIn2v2": false,
     "scid": 54000001
   },
   {
@@ -75,7 +75,6 @@
     "pVEArena": false,
     "trophyLimit": 400,
     "demoteTrophyLimit": 350,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 135,
     "shopChestRewardMultiplier": 100,
     "requestSize": 10,
@@ -93,6 +92,7 @@
     "dailyDonationCapacityLimit": 60,
     "battleRewardGold": 7,
     "questCycle": "Quests_Arena2",
+    "disableIn2v2": false,
     "scid": 54000002
   },
   {
@@ -107,7 +107,6 @@
     "pVEArena": false,
     "trophyLimit": 800,
     "demoteTrophyLimit": 750,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 170,
     "shopChestRewardMultiplier": 100,
     "requestSize": 10,
@@ -126,6 +125,7 @@
     "battleRewardGold": 9,
     "questCycle": "Quests_Arena3",
     "forceQuestChestCycle": "Quest_arena3_super",
+    "disableIn2v2": false,
     "scid": 54000003
   },
   {
@@ -140,7 +140,6 @@
     "pVEArena": false,
     "trophyLimit": 1100,
     "demoteTrophyLimit": 1050,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 200,
     "shopChestRewardMultiplier": 100,
     "requestSize": 20,
@@ -158,6 +157,7 @@
     "dailyDonationCapacityLimit": 120,
     "battleRewardGold": 11,
     "questCycle": "Quests_Arena4",
+    "disableIn2v2": false,
     "scid": 54000004
   },
   {
@@ -172,7 +172,6 @@
     "pVEArena": false,
     "trophyLimit": 1400,
     "demoteTrophyLimit": 1350,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 230,
     "shopChestRewardMultiplier": 100,
     "requestSize": 20,
@@ -190,6 +189,7 @@
     "dailyDonationCapacityLimit": 120,
     "battleRewardGold": 12,
     "questCycle": "Quests_Arena5",
+    "disableIn2v2": false,
     "scid": 54000005
   },
   {
@@ -204,7 +204,6 @@
     "pVEArena": false,
     "trophyLimit": 1700,
     "demoteTrophyLimit": 1650,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 260,
     "shopChestRewardMultiplier": 100,
     "requestSize": 20,
@@ -222,6 +221,7 @@
     "dailyDonationCapacityLimit": 120,
     "battleRewardGold": 14,
     "questCycle": "Quests_Arena6",
+    "disableIn2v2": false,
     "scid": 54000006
   },
   {
@@ -236,7 +236,6 @@
     "pVEArena": false,
     "trophyLimit": 3000,
     "demoteTrophyLimit": 2950,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 380,
     "shopChestRewardMultiplier": 100,
     "requestSize": 40,
@@ -254,6 +253,7 @@
     "dailyDonationCapacityLimit": 240,
     "battleRewardGold": 20,
     "questCycle": "Quests_Arena_L",
+    "disableIn2v2": false,
     "scid": 54000007
   },
   {
@@ -268,7 +268,6 @@
     "pVEArena": false,
     "trophyLimit": 2000,
     "demoteTrophyLimit": 1950,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 290,
     "shopChestRewardMultiplier": 100,
     "requestSize": 30,
@@ -286,6 +285,7 @@
     "dailyDonationCapacityLimit": 180,
     "battleRewardGold": 15,
     "questCycle": "Quests_Arena7",
+    "disableIn2v2": false,
     "scid": 54000008
   },
   {
@@ -300,7 +300,6 @@
     "pVEArena": false,
     "trophyLimit": 2300,
     "demoteTrophyLimit": 2250,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 320,
     "shopChestRewardMultiplier": 100,
     "requestSize": 30,
@@ -318,6 +317,7 @@
     "dailyDonationCapacityLimit": 200,
     "battleRewardGold": 16,
     "questCycle": "Quests_Arena8",
+    "disableIn2v2": false,
     "scid": 54000009
   },
   {
@@ -332,7 +332,6 @@
     "pVEArena": false,
     "trophyLimit": 2600,
     "demoteTrophyLimit": 2550,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 350,
     "shopChestRewardMultiplier": 100,
     "requestSize": 30,
@@ -350,6 +349,7 @@
     "dailyDonationCapacityLimit": 220,
     "battleRewardGold": 18,
     "questCycle": "Quests_Arena9",
+    "disableIn2v2": false,
     "scid": 54000010
   },
   {
@@ -364,7 +364,6 @@
     "pVEArena": false,
     "trophyLimit": 3800,
     "demoteTrophyLimit": 3750,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 440,
     "shopChestRewardMultiplier": 100,
     "requestSize": 40,
@@ -382,6 +381,7 @@
     "dailyDonationCapacityLimit": 260,
     "battleRewardGold": 24,
     "questCycle": "Quests_Arena_T",
+    "disableIn2v2": false,
     "scid": 54000011
   },
   {
@@ -396,7 +396,6 @@
     "pVEArena": false,
     "trophyLimit": 4000,
     "demoteTrophyLimit": 4000,
-    "seasonTrophyReset": 4000,
     "chestRewardMultiplier": 440,
     "shopChestRewardMultiplier": 100,
     "requestSize": 40,
@@ -416,6 +415,7 @@
     "battleRewardGold": 26,
     "seasonRewardChest": "SeasonReward_L1",
     "questCycle": "Quests_Arena_T",
+    "disableIn2v2": true,
     "scid": 54000012
   },
   {
@@ -430,7 +430,6 @@
     "pVEArena": false,
     "trophyLimit": 4300,
     "demoteTrophyLimit": 4300,
-    "seasonTrophyReset": 4000,
     "chestRewardMultiplier": 440,
     "shopChestRewardMultiplier": 100,
     "requestSize": 40,
@@ -450,6 +449,7 @@
     "battleRewardGold": 28,
     "seasonRewardChest": "SeasonReward_L2",
     "questCycle": "Quests_Arena_T",
+    "disableIn2v2": true,
     "scid": 54000013
   },
   {
@@ -464,7 +464,6 @@
     "pVEArena": false,
     "trophyLimit": 4600,
     "demoteTrophyLimit": 4600,
-    "seasonTrophyReset": 4000,
     "chestRewardMultiplier": 440,
     "shopChestRewardMultiplier": 100,
     "requestSize": 40,
@@ -484,6 +483,7 @@
     "battleRewardGold": 30,
     "seasonRewardChest": "SeasonReward_L3",
     "questCycle": "Quests_Arena_T",
+    "disableIn2v2": true,
     "scid": 54000014
   },
   {
@@ -498,7 +498,6 @@
     "pVEArena": false,
     "trophyLimit": 4900,
     "demoteTrophyLimit": 4900,
-    "seasonTrophyReset": 4300,
     "chestRewardMultiplier": 440,
     "shopChestRewardMultiplier": 100,
     "requestSize": 40,
@@ -518,6 +517,7 @@
     "battleRewardGold": 32,
     "seasonRewardChest": "SeasonReward_L4",
     "questCycle": "Quests_Arena_T",
+    "disableIn2v2": true,
     "scid": 54000015
   },
   {
@@ -532,7 +532,6 @@
     "pVEArena": false,
     "trophyLimit": 5200,
     "demoteTrophyLimit": 5200,
-    "seasonTrophyReset": 4300,
     "chestRewardMultiplier": 440,
     "shopChestRewardMultiplier": 100,
     "requestSize": 40,
@@ -552,6 +551,7 @@
     "battleRewardGold": 34,
     "seasonRewardChest": "SeasonReward_L5",
     "questCycle": "Quests_Arena_T",
+    "disableIn2v2": true,
     "scid": 54000016
   },
   {
@@ -566,7 +566,6 @@
     "pVEArena": false,
     "trophyLimit": 5500,
     "demoteTrophyLimit": 5500,
-    "seasonTrophyReset": 4300,
     "chestRewardMultiplier": 440,
     "shopChestRewardMultiplier": 100,
     "requestSize": 40,
@@ -586,6 +585,7 @@
     "battleRewardGold": 36,
     "seasonRewardChest": "SeasonReward_L6",
     "questCycle": "Quests_Arena_T",
+    "disableIn2v2": true,
     "scid": 54000017
   },
   {
@@ -600,7 +600,6 @@
     "pVEArena": false,
     "trophyLimit": 5800,
     "demoteTrophyLimit": 5800,
-    "seasonTrophyReset": 4600,
     "chestRewardMultiplier": 440,
     "shopChestRewardMultiplier": 100,
     "requestSize": 40,
@@ -620,6 +619,7 @@
     "battleRewardGold": 38,
     "seasonRewardChest": "SeasonReward_L7",
     "questCycle": "Quests_Arena_T",
+    "disableIn2v2": true,
     "scid": 54000018
   },
   {
@@ -634,7 +634,6 @@
     "pVEArena": false,
     "trophyLimit": 6100,
     "demoteTrophyLimit": 6100,
-    "seasonTrophyReset": 4600,
     "chestRewardMultiplier": 440,
     "shopChestRewardMultiplier": 100,
     "requestSize": 40,
@@ -654,6 +653,7 @@
     "battleRewardGold": 40,
     "seasonRewardChest": "SeasonReward_L8",
     "questCycle": "Quests_Arena_T",
+    "disableIn2v2": true,
     "scid": 54000019
   },
   {
@@ -668,7 +668,6 @@
     "pVEArena": false,
     "trophyLimit": 6400,
     "demoteTrophyLimit": 6400,
-    "seasonTrophyReset": 4600,
     "chestRewardMultiplier": 440,
     "shopChestRewardMultiplier": 100,
     "requestSize": 40,
@@ -688,6 +687,7 @@
     "battleRewardGold": 42,
     "seasonRewardChest": "SeasonReward_L9",
     "questCycle": "Quests_Arena_T",
+    "disableIn2v2": true,
     "scid": 54000020
   },
   {
@@ -702,7 +702,6 @@
     "pVEArena": true,
     "trophyLimit": 0,
     "demoteTrophyLimit": 0,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 100,
     "shopChestRewardMultiplier": 100,
     "requestSize": 10,
@@ -719,6 +718,7 @@
     "dailyDonationCapacityLimit": 0,
     "battleRewardGold": 0,
     "questCycle": "Quests_Arena_T",
+    "disableIn2v2": false,
     "scid": 54000021
   },
   {
@@ -733,7 +733,6 @@
     "pVEArena": true,
     "trophyLimit": 0,
     "demoteTrophyLimit": 0,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 100,
     "shopChestRewardMultiplier": 100,
     "requestSize": 10,
@@ -750,6 +749,7 @@
     "dailyDonationCapacityLimit": 0,
     "battleRewardGold": 0,
     "questCycle": "Quests_Arena_T",
+    "disableIn2v2": false,
     "scid": 54000022
   },
   {
@@ -764,7 +764,6 @@
     "pVEArena": false,
     "trophyLimit": 0,
     "demoteTrophyLimit": 0,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 100,
     "shopChestRewardMultiplier": 100,
     "requestSize": 30,
@@ -782,6 +781,7 @@
     "dailyDonationCapacityLimit": 180,
     "battleRewardGold": 15,
     "questCycle": "Quests_Arena_T",
+    "disableIn2v2": false,
     "scid": 54000023
   },
   {
@@ -796,7 +796,6 @@
     "pVEArena": false,
     "trophyLimit": 3400,
     "demoteTrophyLimit": 3350,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 410,
     "shopChestRewardMultiplier": 100,
     "requestSize": 40,
@@ -814,6 +813,7 @@
     "dailyDonationCapacityLimit": 240,
     "battleRewardGold": 22,
     "questCycle": "Quests_Arena_Electric",
+    "disableIn2v2": false,
     "scid": 54000024
   },
   {
@@ -828,7 +828,6 @@
     "pVEArena": false,
     "trophyLimit": 0,
     "demoteTrophyLimit": 0,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 100,
     "shopChestRewardMultiplier": 100,
     "requestSize": 10,
@@ -846,6 +845,7 @@
     "dailyDonationCapacityLimit": 0,
     "battleRewardGold": 0,
     "questCycle": "Quests_Arena_T",
+    "disableIn2v2": false,
     "scid": 54000025
   },
   {
@@ -860,7 +860,6 @@
     "pVEArena": false,
     "trophyLimit": 0,
     "demoteTrophyLimit": 0,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 100,
     "shopChestRewardMultiplier": 100,
     "requestSize": 10,
@@ -877,6 +876,7 @@
     "dailyDonationCapacityLimit": 0,
     "battleRewardGold": 0,
     "questCycle": "Quests_Arena_T",
+    "disableIn2v2": false,
     "scid": 54000026
   },
   {
@@ -891,7 +891,6 @@
     "pVEArena": false,
     "trophyLimit": 3000,
     "demoteTrophyLimit": 2950,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 380,
     "shopChestRewardMultiplier": 100,
     "requestSize": 40,
@@ -908,6 +907,7 @@
     "dailyDonationCapacityLimit": 240,
     "battleRewardGold": 20,
     "questCycle": "Quests_Arena_L",
+    "disableIn2v2": false,
     "scid": 54000027
   },
   {
@@ -922,7 +922,6 @@
     "pVEArena": false,
     "trophyLimit": 3000,
     "demoteTrophyLimit": 2950,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 380,
     "shopChestRewardMultiplier": 100,
     "requestSize": 40,
@@ -939,6 +938,7 @@
     "dailyDonationCapacityLimit": 240,
     "battleRewardGold": 20,
     "questCycle": "Quests_Arena_L",
+    "disableIn2v2": false,
     "scid": 54000028
   },
   {
@@ -953,7 +953,6 @@
     "pVEArena": false,
     "trophyLimit": 3000,
     "demoteTrophyLimit": 2950,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 380,
     "shopChestRewardMultiplier": 100,
     "requestSize": 40,
@@ -970,6 +969,7 @@
     "dailyDonationCapacityLimit": 240,
     "battleRewardGold": 20,
     "questCycle": "Quests_Arena_L",
+    "disableIn2v2": false,
     "scid": 54000029
   },
   {
@@ -984,7 +984,6 @@
     "pVEArena": false,
     "trophyLimit": 3000,
     "demoteTrophyLimit": 2950,
-    "seasonTrophyReset": 0,
     "chestRewardMultiplier": 380,
     "shopChestRewardMultiplier": 100,
     "requestSize": 40,
@@ -1001,6 +1000,7 @@
     "dailyDonationCapacityLimit": 240,
     "battleRewardGold": 20,
     "questCycle": "Quests_Arena_L",
+    "disableIn2v2": false,
     "scid": 54000030
   }
 ]
