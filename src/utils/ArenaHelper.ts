@@ -19,7 +19,6 @@ export namespace ArenaHelper {
       arena: arena.arena,
       subtitle: LocaleHelper.getTextById(arena.subtitleTID),
       trophiesRequired: arena.trophyLimit != null ? arena.trophyLimit : 0,
-      seasonTrophyReset: arena.seasonTrophyReset != null ? arena.seasonTrophyReset : undefined,
       demoteTrophyLimit: arena.demoteTrophyLimit != null ? arena.demoteTrophyLimit : undefined,
       iconUrls: {
         tiny: `${cdnUrl}/img/clash-royale/arenas/${arena.scid}-tiny.png`,
