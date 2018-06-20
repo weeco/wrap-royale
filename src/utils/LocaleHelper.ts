@@ -1,6 +1,5 @@
-import * as fs from 'fs';
-import * as path from 'path';
 import slug from 'slug';
+import textsJson from '../../assets/texts.json';
 
 /**
  * All available locales for texts.
@@ -58,8 +57,6 @@ export interface IText {
  */
 export namespace LocaleHelper {
   const textById: Map<string, IText> = new Map();
-  const textsJsonPath: string = path.join(__dirname, '..', '..', 'assets', 'texts.json');
-  const texts: IText[] = <IText[]>JSON.parse(fs.readFileSync(textsJsonPath, 'utf8'));
   const slugOptions: {} = {
     replacement: '-', // replace spaces with replacement
     symbols: true, // replace unicode symbols or not
@@ -70,8 +67,8 @@ export namespace LocaleHelper {
   };
 
   // Load all translation into Map
-  for (const text of texts) {
-    textById.set(text.identifier, text);
+  for (const text of textsJson) {
+    textById.set(text.identifier, <IText>text);
   }
 
   /**

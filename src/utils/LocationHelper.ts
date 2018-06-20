@@ -1,6 +1,5 @@
-import * as fs from 'fs';
-import * as path from 'path';
 import slug from 'slug';
+import countriesJson from '../../assets/countries.json';
 import { IIconUrls } from '../common/types';
 import { IApiLocation } from '../models/common/Location';
 
@@ -28,13 +27,10 @@ export namespace LocationHelper {
     multicharmap: slug.multicharmap // replace multi-characters
   };
 
-  const countriesJsonpath: string = path.join(__dirname, '..', '..', 'assets', 'countries.json');
-  const locations: IApiLocation[] = <IApiLocation[]>JSON.parse(fs.readFileSync(countriesJsonpath, 'utf8'));
-
   // Add icon urls for all locations
   const cdnUrl: string = 'https://www.clashcrown.com';
   // Load location object array into Map
-  locations.forEach((location: IApiLocation) => {
+  countriesJson.forEach((location: IApiLocation) => {
     const locationDetailed: ILocationDetails = {
       ...location,
       iconUrls: {
