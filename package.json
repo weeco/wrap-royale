@@ -35,7 +35,7 @@
     "moment": "^2.22.1",
     "reflect-metadata": "^0.1.12",
     "slug": "^0.9.1",
-    "wrap-royale-core": "^1.2.1"
+    "wrap-royale-core": "^1.3.0"
   },
   "devDependencies": {
     "@types/bases": "^0.2.2",

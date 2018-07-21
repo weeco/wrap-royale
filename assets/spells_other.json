@@ -900,7 +900,6 @@
     "TID": "TID_SPELL_SNOWBALL",
     "TID_INFO": "TID_SPELL_INFO_SNOWBALL",
     "hideRadiusIndicator": false,
-    "releaseDate": "Soon",
     "elixirProductionStopTime": 0,
     "darkMirror": false,
     "statsUnderInfo": false,

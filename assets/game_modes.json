@@ -2960,7 +2960,7 @@
   },
   {
     "name": "PopularDecks_Friendly",
-    "TID": "TID_POPULAR_DECK_CHALLENGE",
+    "TID": "TID_POPULAR_DECK_BATTLE",
     "requestTID": "TID_REQUEST_POPULAR_1V1",
     "inProgressTID": "TID_POPULAR_1V1_IN_PROGRESS",
     "cardLevelAdjustment": "Friendly",
