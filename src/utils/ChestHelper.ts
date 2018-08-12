@@ -6,7 +6,7 @@ import { IText, LocaleHelper, Locales } from './LocaleHelper';
  */
 export namespace ChestHelper {
   const chestsByName: Map<string, IChestDetails> = new Map();
-  const cdnUrl: string = 'https://www.clashcrown.com';
+  const cdnUrl: string = 'https://raw.githubusercontent.com/weeco/clash-royale-assets/master/images';
 
   const chestTextIds: string[] = [
     'TID_CHEST_WOOD',
@@ -41,16 +41,10 @@ export namespace ChestHelper {
     const chestDetails: IChestDetails = {
       name: chestName,
       iconUrls: {
-        tiny: `${cdnUrl}/img/clash-royale/chests/${chestSlugs.en}-tiny.png`,
-        small: `${cdnUrl}/img/clash-royale/chests/${chestSlugs.en}-small.png`,
-        medium: `${cdnUrl}/img/clash-royale/chests/${chestSlugs.en}-medium.png`,
-        large: `${cdnUrl}/img/clash-royale/chests/${chestSlugs.en}-large.png`
+        large: `${cdnUrl}/clash-royale/chests/${chestSlugs.en}.png`
       },
       iconUrlsOpened: {
-        tiny: `${cdnUrl}/img/clash-royale/chests/${chestSlugs.en}-opened-tiny.png`,
-        small: `${cdnUrl}/img/clash-royale/chests/${chestSlugs.en}-opened-small.png`,
-        medium: `${cdnUrl}/img/clash-royale/chests/${chestSlugs.en}-opened-medium.png`,
-        large: `${cdnUrl}/img/clash-royale/chests/${chestSlugs.en}-opened-large.png`
+        large: `${cdnUrl}/clash-royale/chests/${chestSlugs.en}-open.png`
       },
       slug: LocaleHelper.getSluggifiedTextById(tid),
       isSpecial: specialChests.indexOf(tid) > -1

@@ -15,11 +15,11 @@ describe('Chest Helper', () => {
         .to.be.a('string')
         .to.be.equal(name);
       expect(chest.slug.en).to.be.a('string');
-      expect(chest.iconUrls.tiny)
+      expect(chest.iconUrls.large)
         .to.be.a('string')
         .to.contain('https://')
         .to.contain('.png');
-      expect(chest.iconUrlsOpened.tiny)
+      expect(chest.iconUrlsOpened.large)
         .to.be.a('string')
         .to.contain('https://')
         .to.contain('.png');

@@ -11,7 +11,7 @@ export namespace ArenaHelper {
   const arenaByNumber: Map<number, IArenaDetails> = new Map();
 
   // Load arena object array into Map
-  const cdnUrl: string = 'https://www.clashcrown.com';
+  const cdnUrl: string = 'https://raw.githubusercontent.com/weeco/clash-royale-assets/master/images';
   for (const arena of arenasJson) {
     const arenaDetails: IArenaDetails = {
       id: arena.scid,
@@ -21,10 +21,7 @@ export namespace ArenaHelper {
       trophiesRequired: arena.trophyLimit != null ? arena.trophyLimit : 0,
       demoteTrophyLimit: arena.demoteTrophyLimit != null ? arena.demoteTrophyLimit : undefined,
       iconUrls: {
-        tiny: `${cdnUrl}/img/clash-royale/arenas/${arena.scid}-tiny.png`,
-        small: `${cdnUrl}/img/clash-royale/arenas/${arena.scid}-small.png`,
-        medium: `${cdnUrl}/img/clash-royale/arenas/${arena.scid}-medium.png`,
-        large: `${cdnUrl}/img/clash-royale/arenas/${arena.scid}-large.png`
+        large: `${cdnUrl}/arenas/${arena.scid}.png`
       },
       requestSize: arena.requestSize,
       maxDonationCountCommon: arena.maxDonationCountCommon,

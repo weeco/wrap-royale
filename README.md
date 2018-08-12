@@ -300,7 +300,6 @@ function getLocationById(locationId: number): ILocationDetails;
 ```
 
 ## Projects using this library
-- ClashCrown (A stats website with lots of metrics - https://clashcrown.com/)
 - ClashRoyale Discord bot
 
 Let us know what you've built using this library! Submit an issue and I will add your project to the list :-).

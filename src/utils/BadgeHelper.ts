@@ -11,14 +11,11 @@ export namespace BadgeHelper {
   // Load arena object array into Map
 
   for (let i: number = maxBadgeId; i >= minBadgeId; i -= 1) {
-    const cdnUrl: string = 'https://www.clashcrown.com';
+    const cdnUrl: string = 'https://raw.githubusercontent.com/weeco/clash-royale-assets/master/images';
     const badge: IBadgeDetails = {
       id: i,
       iconUrls: {
-        tiny: `${cdnUrl}/img/clash-royale/badges/${i}-tiny.png`,
-        small: `${cdnUrl}/img/clash-royale/badges/${i}-small.png`,
-        medium: `${cdnUrl}/img/clash-royale/badges/${i}-medium.png`,
-        large: `${cdnUrl}/img/clash-royale/badges/${i}-large.png`
+        large: `${cdnUrl}/badges/${i}.png`
       }
     };
     badgeById.set(i, badge);

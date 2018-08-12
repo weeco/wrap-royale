@@ -19,7 +19,7 @@ export namespace CardHelper {
   const cardsByName: Map<string, ICardDetails> = new Map();
   const cardsBySlug: Map<string, ICardDetails> = new Map();
   const cardIds: Set<number> = new Set();
-  const cdnUrl: string = 'https://www.clashcrown.com';
+  const cdnUrl: string = 'https://raw.githubusercontent.com/weeco/clash-royale-assets/master/images';
 
   // Load cards object array into Maps
   for (const card of spells_otherJson) {
@@ -85,10 +85,7 @@ export namespace CardHelper {
       name: cardText,
       description: LocaleHelper.getTextById(card.TID_INFO),
       iconUrls: {
-        tiny: `${cdnUrl}/img/clash-royale/cards/${cardSlugs.en}-tiny.png`,
-        small: `${cdnUrl}/img/clash-royale/cards/${cardSlugs.en}-small.png`,
-        medium: `${cdnUrl}/img/clash-royale/cards/${cardSlugs.en}-medium.png`,
-        large: `${cdnUrl}/img/clash-royale/cards/${cardSlugs.en}-large.png`
+        large: `${cdnUrl}/cards/${cardSlugs.en}.png`
       },
       elixir: card.manaCost,
       cardType,

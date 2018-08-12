@@ -28,16 +28,13 @@ export namespace LocationHelper {
   };
 
   // Add icon urls for all locations
-  const cdnUrl: string = 'https://www.clashcrown.com';
+  const cdnUrl: string = 'https://raw.githubusercontent.com/weeco/clash-royale-assets/master/images';
   // Load location object array into Map
   countriesJson.forEach((location: IApiLocation) => {
     const locationDetailed: ILocationDetails = {
       ...location,
       iconUrls: {
-        tiny: `${cdnUrl}/img/clash-royale/locations/${location.countryCode}-tiny.png`,
-        small: `${cdnUrl}/img/clash-royale/locations/${location.countryCode}-small.png`,
-        medium: `${cdnUrl}/img/clash-royale/locations/${location.countryCode}-medium.png`,
-        large: `${cdnUrl}/img/clash-royale/locations/${location.countryCode}-large.png`
+        large: `${cdnUrl}/clash-royale/locations/${location.countryCode}.png`
       },
       slug: slug(location.name, slugOptions)
     };

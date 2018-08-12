@@ -175,8 +175,8 @@ export interface IGameTypes {
 export interface IIconUrls {
   tiny?: string;
   small?: string;
-  medium: string;
-  large?: string;
+  medium?: string;
+  large: string;
 }
 
 export interface IApiPagination {
