@@ -17,6 +17,10 @@ export namespace HashtagHelper {
    * @param hashtag Player- or clantag
    */
   export function normalizeHashtag(hashtag: string): string {
+    if (hashtag == null) {
+      return '';
+    }
+
     return hashtag
       .trim()
       .toUpperCase()
