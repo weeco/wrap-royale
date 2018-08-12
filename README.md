@@ -42,7 +42,7 @@ A promise based and feature rich library for requesting resources from Supercell
 ## Getting started
 ### Prerequisites
 - [Node.js 8.0+](http://nodejs.org)
-- Token for the official Clash Royale API (currently closed beta)
+- Token for the official Clash Royale API (register here: https://developer.clashroyale.com)
 
 ### Installation
 `$ npm install --save wrap-royale`
