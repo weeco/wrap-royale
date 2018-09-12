@@ -40,7 +40,7 @@
       1000,
       2000,
       5000,
-      100
+      250
     ],
     "upgradeCost": [
       5,
@@ -98,7 +98,12 @@
     "cardTxtBgFrameIdx": 0,
     "rotateExportName": "card_rotate_common_short",
     "iconSWF": "sc/ui.sc",
-    "iconExportName": "icon_btn_card_common"
+    "iconExportName": "icon_btn_card_common",
+    "tokenSWF": "sc/ui_spells.sc",
+    "tokenExportName": "token_common",
+    "tokenFlyingIconSWF": "sc/ui.sc",
+    "tokenFlyingIconExportName": "token_common",
+    "tokenGoldValue": 250
   },
   {
     "name": "Rare",
@@ -137,7 +142,7 @@
       400,
       800,
       1000,
-      10
+      50
     ],
     "upgradeCost": [
       50,
@@ -192,7 +197,12 @@
     "cardGlowInstanceName": "card_glow_rare",
     "rotateExportName": "card_rotate_epic_short",
     "iconSWF": "sc/ui.sc",
-    "iconExportName": "icon_btn_card_rare"
+    "iconExportName": "icon_btn_card_rare",
+    "tokenSWF": "sc/ui_spells.sc",
+    "tokenExportName": "token_rare",
+    "tokenFlyingIconSWF": "sc/ui.sc",
+    "tokenFlyingIconExportName": "token_rare",
+    "tokenGoldValue": 500
   },
   {
     "name": "Epic",
@@ -225,7 +235,7 @@
       50,
       100,
       200,
-      5
+      10
     ],
     "upgradeCost": [
       400,
@@ -274,7 +284,12 @@
     "cardGlowInstanceName": "card_frame_glow_epic",
     "rotateExportName": "card_rotate_rare_short",
     "iconSWF": "sc/ui.sc",
-    "iconExportName": "icon_btn_card_epic"
+    "iconExportName": "icon_btn_card_epic",
+    "tokenSWF": "sc/ui_spells.sc",
+    "tokenExportName": "token_epic",
+    "tokenFlyingIconSWF": "sc/ui.sc",
+    "tokenFlyingIconExportName": "token_epic",
+    "tokenGoldValue": 1000
   },
   {
     "name": "Legendary",
@@ -355,54 +370,68 @@
     "spellAvailableSound": "Legendary spell available",
     "rotateExportName": "card_rotate_legendary_short",
     "iconSWF": "sc/ui.sc",
-    "iconExportName": "icon_btn_card_legendary"
+    "iconExportName": "icon_btn_card_legendary",
+    "tokenSWF": "sc/ui_spells.sc",
+    "tokenExportName": "token_legendary",
+    "tokenFlyingIconSWF": "sc/ui.sc",
+    "tokenFlyingIconExportName": "token_legendary",
+    "tokenGoldValue": 2000
   },
   {
     "name": "Hero",
-    "levelCount": 10,
-    "relativeLevel": 8,
-    "mirrorRelativeLevel": 8,
-    "cloneRelativeLevel": 8,
-    "donateCapacity": 4000,
-    "sortCapacity": 2000,
-    "donateReward": 50,
-    "donateXP": 25,
-    "goldConversionValue": 30000,
-    "chanceWeight": 1,
-    "balanceMultiplier": 250,
+    "levelCount": 13,
+    "relativeLevel": 0,
+    "mirrorRelativeLevel": 0,
+    "cloneRelativeLevel": 0,
+    "donateCapacity": 1,
+    "sortCapacity": 1,
+    "donateReward": 5,
+    "donateXP": 1,
+    "goldConversionValue": 5,
+    "chanceWeight": 194,
+    "balanceMultiplier": 100,
     "upgradeExp": [
+      4,
+      5,
+      6,
+      10,
+      25,
+      50,
+      100,
       200,
       400,
       600,
       800,
-      1000,
-      1200,
-      1400,
       1600,
-      1800,
       0
     ],
     "upgradeMaterialCount": [
       2,
-      3,
       4,
-      5,
-      6,
-      7,
-      8,
-      9,
       10,
-      1
+      20,
+      50,
+      100,
+      200,
+      400,
+      800,
+      1000,
+      2000,
+      5000,
+      100
     ],
     "upgradeCost": [
-      10000,
+      5,
+      20,
+      50,
+      150,
+      400,
+      1000,
+      2000,
+      4000,
+      8000,
       20000,
-      25000,
-      30000,
-      40000,
       50000,
-      60000,
-      80000,
       100000,
       0
     ],
@@ -416,7 +445,10 @@
       193,
       212,
       233,
-      281
+      256,
+      281,
+      309,
+      339
     ],
     "refundGems": 8000,
     "TID": "TID_RARITY_HERO",
@@ -453,6 +485,7 @@
     "cardTxtBgFrameIdx": 3,
     "cardGlowInstanceName": "card_frame_glow_epic",
     "iconSWF": "sc/ui.sc",
-    "iconExportName": "icon_btn_card_epic"
+    "iconExportName": "icon_btn_card_epic",
+    "tokenGoldValue": 0
   }
 ]

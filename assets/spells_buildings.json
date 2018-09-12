@@ -20,6 +20,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": false,
     "canPlaceOnWater": false,
@@ -47,7 +48,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 27000000
+    "scid": 27000000,
+    "id": 0
   },
   {
     "name": "GoblinHut",
@@ -70,6 +72,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": false,
     "canPlaceOnWater": false,
@@ -97,7 +100,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 27000001
+    "scid": 27000001,
+    "id": 1
   },
   {
     "name": "Mortar",
@@ -120,6 +124,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": false,
     "canPlaceOnWater": false,
@@ -147,7 +152,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 27000002
+    "scid": 27000002,
+    "id": 2
   },
   {
     "name": "InfernoTower",
@@ -170,6 +176,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": false,
     "canPlaceOnWater": false,
@@ -197,7 +204,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 27000003
+    "scid": 27000003,
+    "id": 3
   },
   {
     "name": "BombTower",
@@ -205,7 +213,7 @@
     "unlockArena": "Arena_L",
     "unlockLevel": 0,
     "rarity": "Rare",
-    "manaCost": 5,
+    "manaCost": 4,
     "manaCostFromSummonerMana": false,
     "notInUse": false,
     "mirror": false,
@@ -220,6 +228,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": false,
     "canPlaceOnWater": false,
@@ -247,7 +256,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 27000004
+    "scid": 27000004,
+    "id": 4
   },
   {
     "name": "BarbarianHut",
@@ -270,6 +280,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": false,
     "canPlaceOnWater": false,
@@ -297,7 +308,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 27000005
+    "scid": 27000005,
+    "id": 5
   },
   {
     "name": "Tesla",
@@ -320,6 +332,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": false,
     "canPlaceOnWater": false,
@@ -347,7 +360,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 27000006
+    "scid": 27000006,
+    "id": 6
   },
   {
     "name": "Elixir Collector",
@@ -370,6 +384,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": false,
     "canPlaceOnWater": false,
@@ -397,7 +412,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 27000007
+    "scid": 27000007,
+    "id": 7
   },
   {
     "name": "Xbow",
@@ -420,6 +436,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": false,
     "canPlaceOnWater": false,
@@ -447,7 +464,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 27000008
+    "scid": 27000008,
+    "id": 8
   },
   {
     "name": "Tombstone",
@@ -470,6 +488,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": false,
     "canPlaceOnWater": false,
@@ -497,7 +516,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 27000009
+    "scid": 27000009,
+    "id": 9
   },
   {
     "name": "FirespiritHut",
@@ -520,6 +540,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": false,
     "canPlaceOnWater": false,
@@ -547,11 +568,12 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 27000010
+    "scid": 27000010,
+    "id": 10
   },
   {
-    "name": "NOTINUSESB2",
-    "iconFile": "not_in_use",
+    "name": "NOTINUSEMC",
+    "iconFile": "chaos_cannon",
     "unlockArena": "Arena3",
     "unlockLevel": 0,
     "rarity": "Common",
@@ -570,6 +592,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": false,
     "canPlaceOnWater": false,
@@ -597,11 +620,12 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 27000011
+    "scid": 27000011,
+    "id": 11
   },
   {
     "name": "NOTINUSESB3",
-    "iconFile": "not_in_use",
+    "iconFile": "chaos_cannon",
     "unlockArena": "Arena3",
     "unlockLevel": 0,
     "rarity": "Common",
@@ -620,6 +644,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": false,
     "canPlaceOnWater": false,
@@ -647,11 +672,12 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 27000012
+    "scid": 27000012,
+    "id": 12
   },
   {
     "name": "NOTINUSESB1",
-    "iconFile": "not_in_use",
+    "iconFile": "chaos_cannon",
     "unlockArena": "Arena3",
     "unlockLevel": 0,
     "rarity": "Common",
@@ -670,6 +696,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": false,
     "canPlaceOnWater": false,
@@ -697,6 +724,111 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 27000013
+    "scid": 27000013,
+    "id": 13
+  },
+  {
+    "name": "NOTINUSEHS",
+    "iconFile": "chaos_cannon",
+    "unlockArena": "Arena3",
+    "unlockLevel": 0,
+    "rarity": "Common",
+    "manaCost": 3,
+    "manaCostFromSummonerMana": false,
+    "notInUse": true,
+    "mirror": false,
+    "customDeployTime": 0,
+    "summonCharacter": "Cannon",
+    "summonNumber": 0,
+    "summonCharacterLevelIndex": 0,
+    "summonCharacterSecondCount": 0,
+    "summonRadius": 0,
+    "summonWidth": 0,
+    "summonDeployDelay": 0,
+    "summonDeployDelaySecond": 0,
+    "radius": 0,
+    "height": 0,
+    "projectileAngle": 0,
+    "spellAsDeploy": false,
+    "canPlaceOnBuildings": false,
+    "canPlaceOnWater": false,
+    "instantDamage": 0,
+    "durationSeconds": 0,
+    "instantHeal": 0,
+    "healPerSecond": 0,
+    "pushback": 0,
+    "multipleProjectiles": 0,
+    "buffTime": 0,
+    "buffTimeIncreasePerLevel": 0,
+    "buffNumber": 0,
+    "onlyOwnTroops": false,
+    "onlyEnemies": false,
+    "canDeployOnEnemySide": false,
+    "touchdownLimitedDeploy": false,
+    "castSound": "SpellCasting",
+    "TID": "TID_SPELL_CANNON",
+    "TID_INFO": "TID_SPELL_INFO_CANNON",
+    "hideRadiusIndicator": false,
+    "elixirProductionStopTime": 0,
+    "darkMirror": false,
+    "statsUnderInfo": false,
+    "hpModifier": 0,
+    "damageModifier": 0,
+    "deployWTileMargin": 0,
+    "fullLaneDeploy": false,
+    "scid": 27000014,
+    "id": 14
+  },
+  {
+    "name": "NOTINUSESBK",
+    "iconFile": "chaos_cannon",
+    "unlockArena": "Arena3",
+    "unlockLevel": 0,
+    "rarity": "Common",
+    "manaCost": 3,
+    "manaCostFromSummonerMana": false,
+    "notInUse": true,
+    "mirror": false,
+    "customDeployTime": 0,
+    "summonCharacter": "Cannon",
+    "summonNumber": 0,
+    "summonCharacterLevelIndex": 0,
+    "summonCharacterSecondCount": 0,
+    "summonRadius": 0,
+    "summonWidth": 0,
+    "summonDeployDelay": 0,
+    "summonDeployDelaySecond": 0,
+    "radius": 0,
+    "height": 0,
+    "projectileAngle": 0,
+    "spellAsDeploy": false,
+    "canPlaceOnBuildings": false,
+    "canPlaceOnWater": false,
+    "instantDamage": 0,
+    "durationSeconds": 0,
+    "instantHeal": 0,
+    "healPerSecond": 0,
+    "pushback": 0,
+    "multipleProjectiles": 0,
+    "buffTime": 0,
+    "buffTimeIncreasePerLevel": 0,
+    "buffNumber": 0,
+    "onlyOwnTroops": false,
+    "onlyEnemies": false,
+    "canDeployOnEnemySide": false,
+    "touchdownLimitedDeploy": false,
+    "castSound": "SpellCasting",
+    "TID": "TID_SPELL_CANNON",
+    "TID_INFO": "TID_SPELL_INFO_CANNON",
+    "hideRadiusIndicator": false,
+    "elixirProductionStopTime": 0,
+    "darkMirror": false,
+    "statsUnderInfo": false,
+    "hpModifier": 0,
+    "damageModifier": 0,
+    "deployWTileMargin": 0,
+    "fullLaneDeploy": false,
+    "scid": 27000015,
+    "id": 15
   }
 ]

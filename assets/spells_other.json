@@ -20,6 +20,7 @@
     "radius": 0,
     "height": 0,
     "projectile": "FireballSpell",
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": true,
     "canPlaceOnWater": true,
@@ -47,7 +48,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000000
+    "scid": 28000000,
+    "id": 0
   },
   {
     "name": "Arrows",
@@ -70,6 +72,7 @@
     "radius": 4000,
     "height": 0,
     "projectile": "ArrowsSpellDeco",
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": true,
     "canPlaceOnWater": true,
@@ -99,7 +102,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000001
+    "scid": 28000001,
+    "id": 1
   },
   {
     "name": "Rage",
@@ -121,6 +125,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": true,
     "canPlaceOnWater": true,
@@ -149,7 +154,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000002
+    "scid": 28000002,
+    "id": 2
   },
   {
     "name": "Rocket",
@@ -172,6 +178,7 @@
     "radius": 0,
     "height": 0,
     "projectile": "RocketSpell",
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": true,
     "canPlaceOnWater": true,
@@ -199,7 +206,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000003
+    "scid": 28000003,
+    "id": 3
   },
   {
     "name": "GoblinBarrel",
@@ -222,6 +230,7 @@
     "radius": 0,
     "height": 0,
     "projectile": "GoblinBarrelSpell",
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": true,
     "canPlaceOnWater": false,
@@ -250,7 +259,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000004
+    "scid": 28000004,
+    "id": 4
   },
   {
     "name": "Freeze",
@@ -272,6 +282,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": true,
     "canPlaceOnWater": true,
@@ -301,7 +312,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000005
+    "scid": 28000005,
+    "id": 5
   },
   {
     "name": "Mirror",
@@ -323,6 +335,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": true,
     "canPlaceOnWater": false,
@@ -350,7 +363,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000006
+    "scid": 28000006,
+    "id": 6
   },
   {
     "name": "Lightning",
@@ -372,6 +386,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 3500,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": true,
     "canPlaceOnWater": true,
@@ -400,7 +415,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000007
+    "scid": 28000007,
+    "id": 7
   },
   {
     "name": "Zap",
@@ -422,6 +438,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 2500,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": true,
     "canPlaceOnWater": true,
@@ -450,7 +467,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000008
+    "scid": 28000008,
+    "id": 8
   },
   {
     "name": "Poison",
@@ -472,6 +490,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 3500,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": true,
     "canPlaceOnWater": true,
@@ -500,7 +519,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000009
+    "scid": 28000009,
+    "id": 9
   },
   {
     "name": "Graveyard",
@@ -522,6 +542,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 4000,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": true,
     "canPlaceOnWater": true,
@@ -551,7 +572,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000010
+    "scid": 28000010,
+    "id": 10
   },
   {
     "name": "Log",
@@ -574,6 +596,7 @@
     "radius": 0,
     "height": 0,
     "projectile": "LogProjectile",
+    "projectileAngle": 0,
     "spellAsDeploy": true,
     "canPlaceOnBuildings": true,
     "canPlaceOnWater": true,
@@ -604,7 +627,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000011
+    "scid": 28000011,
+    "id": 11
   },
   {
     "name": "Tornado",
@@ -626,6 +650,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 5500,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": true,
     "canPlaceOnBuildings": true,
     "canPlaceOnWater": true,
@@ -654,7 +679,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000012
+    "scid": 28000012,
+    "id": 12
   },
   {
     "name": "Clone",
@@ -676,6 +702,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 4000,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": true,
     "canPlaceOnWater": true,
@@ -704,15 +731,16 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000013
+    "scid": 28000013,
+    "id": 13
   },
   {
-    "name": "NOTINUSESO1",
-    "iconFile": "copy",
-    "unlockArena": "Arena_T",
+    "name": "NOTINUSEB",
+    "iconFile": "fire_fireball",
+    "unlockArena": "TrainingCamp",
     "unlockLevel": 0,
-    "rarity": "Legendary",
-    "manaCost": 5,
+    "rarity": "Rare",
+    "manaCost": 4,
     "manaCostFromSummonerMana": false,
     "notInUse": true,
     "mirror": false,
@@ -726,9 +754,11 @@
     "summonDeployDelaySecond": 0,
     "radius": 0,
     "height": 0,
-    "spellAsDeploy": true,
-    "canPlaceOnBuildings": false,
-    "canPlaceOnWater": false,
+    "projectile": "FireballSpell",
+    "projectileAngle": 0,
+    "spellAsDeploy": false,
+    "canPlaceOnBuildings": true,
+    "canPlaceOnWater": true,
     "instantDamage": 0,
     "durationSeconds": 0,
     "instantHeal": 0,
@@ -740,9 +770,9 @@
     "buffNumber": 0,
     "onlyOwnTroops": false,
     "onlyEnemies": true,
-    "canDeployOnEnemySide": false,
+    "canDeployOnEnemySide": true,
     "touchdownLimitedDeploy": false,
-    "castSound": "SpellCasting",
+    "castSound": "Fire ball",
     "TID": "TID_SPELL_FIREBALL",
     "TID_INFO": "TID_SPELL_INFO_FIREBALL",
     "hideRadiusIndicator": false,
@@ -753,7 +783,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000014
+    "scid": 28000014,
+    "id": 14
   },
   {
     "name": "BarbLog",
@@ -762,7 +793,7 @@
     "unlockArena": "Arena3",
     "unlockLevel": 0,
     "rarity": "Epic",
-    "manaCost": 3,
+    "manaCost": 2,
     "manaCostFromSummonerMana": false,
     "notInUse": false,
     "mirror": false,
@@ -777,6 +808,7 @@
     "radius": 0,
     "height": 0,
     "projectile": "BarbLogProjectile",
+    "projectileAngle": 0,
     "spellAsDeploy": true,
     "canPlaceOnBuildings": true,
     "canPlaceOnWater": true,
@@ -807,7 +839,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000015
+    "scid": 28000015,
+    "id": 15
   },
   {
     "name": "Heal",
@@ -829,6 +862,7 @@
     "summonDeployDelaySecond": 0,
     "radius": 4000,
     "height": 0,
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": true,
     "canPlaceOnWater": true,
@@ -857,7 +891,8 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000016
+    "scid": 28000016,
+    "id": 16
   },
   {
     "name": "Snowball",
@@ -880,6 +915,7 @@
     "radius": 0,
     "height": 0,
     "projectile": "SnowballSpell",
+    "projectileAngle": 0,
     "spellAsDeploy": false,
     "canPlaceOnBuildings": true,
     "canPlaceOnWater": true,
@@ -907,6 +943,59 @@
     "damageModifier": 0,
     "deployWTileMargin": 0,
     "fullLaneDeploy": false,
-    "scid": 28000017
+    "scid": 28000017,
+    "id": 17
+  },
+  {
+    "name": "NOTINUSEF2",
+    "iconFile": "fire_fireball",
+    "unlockArena": "TrainingCamp",
+    "unlockLevel": 0,
+    "rarity": "Rare",
+    "manaCost": 4,
+    "manaCostFromSummonerMana": false,
+    "notInUse": true,
+    "mirror": false,
+    "customDeployTime": 0,
+    "summonNumber": 0,
+    "summonCharacterLevelIndex": 0,
+    "summonCharacterSecondCount": 0,
+    "summonRadius": 0,
+    "summonWidth": 0,
+    "summonDeployDelay": 0,
+    "summonDeployDelaySecond": 0,
+    "radius": 0,
+    "height": 0,
+    "projectile": "FireballSpell",
+    "projectileAngle": 0,
+    "spellAsDeploy": false,
+    "canPlaceOnBuildings": true,
+    "canPlaceOnWater": true,
+    "instantDamage": 0,
+    "durationSeconds": 0,
+    "instantHeal": 0,
+    "healPerSecond": 0,
+    "pushback": 0,
+    "multipleProjectiles": 0,
+    "buffTime": 0,
+    "buffTimeIncreasePerLevel": 0,
+    "buffNumber": 0,
+    "onlyOwnTroops": false,
+    "onlyEnemies": true,
+    "canDeployOnEnemySide": true,
+    "touchdownLimitedDeploy": false,
+    "castSound": "Fire ball",
+    "TID": "TID_SPELL_FIREBALL",
+    "TID_INFO": "TID_SPELL_INFO_FIREBALL",
+    "hideRadiusIndicator": false,
+    "elixirProductionStopTime": 0,
+    "darkMirror": false,
+    "statsUnderInfo": false,
+    "hpModifier": 0,
+    "damageModifier": 0,
+    "deployWTileMargin": 0,
+    "fullLaneDeploy": false,
+    "scid": 28000018,
+    "id": 18
   }
 ]

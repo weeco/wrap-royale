@@ -7,18 +7,14 @@
     "deckSelection": "Predefined",
     "overtimeSeconds": 180,
     "predefinedDecks": [
-      "Blind_Popular1",
-      "Blind_Popular2",
-      "Blind_Popular3",
-      "Blind_Popular4",
-      "Blind_Popular5",
-      "Blind_Popular6",
-      "Blind_Popular7",
-      "Blind_Popular8",
-      "Blind_Popular9",
-      "Blind_Popular10",
-      "Blind_Popular11",
-      "Blind_Popular12"
+      "Blind_Goblin_1",
+      "Blind_Goblin_2",
+      "Blind_Goblin_3",
+      "Blind_Goblin_4",
+      "Blind_Goblin_5",
+      "Blind_Goblin_6",
+      "Blind_Goblin_7",
+      "Blind_Goblin_8"
     ],
     "sameDeckOnBoth": false,
     "separateTeamDecks": true,
@@ -41,8 +37,10 @@
     "gemsPerTower3": 0,
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
+    "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_CLASSIC_DECKS",
     "battleStartCooldown": 6000,
-    "scid": 72000000
+    "scid": 72000000,
+    "id": 0
   },
   {
     "name": "DoubleElixir",
@@ -76,7 +74,8 @@
     "fixedDeckOrder": false,
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_DOUBLE_ELIXIR",
     "battleStartCooldown": 0,
-    "scid": 72000001
+    "scid": 72000001,
+    "id": 1
   },
   {
     "name": "ThreeBridges",
@@ -107,7 +106,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000002
+    "scid": 72000002,
+    "id": 2
   },
   {
     "name": "HeroChallenge",
@@ -138,7 +138,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000003
+    "scid": 72000003,
+    "id": 3
   },
   {
     "name": "ElectroWiz",
@@ -170,7 +171,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000004
+    "scid": 72000004,
+    "id": 4
   },
   {
     "name": "DraftMode",
@@ -205,7 +207,8 @@
     "icon": "icon_mode_draft",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_DRAFT",
     "battleStartCooldown": 0,
-    "scid": 72000005
+    "scid": 72000005,
+    "id": 5
   },
   {
     "name": "Ladder",
@@ -235,7 +238,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000006
+    "scid": 72000006,
+    "id": 6
   },
   {
     "name": "Friendly",
@@ -267,7 +271,8 @@
     "fixedDeckOrder": false,
     "icon": "icon_mode_1v1",
     "battleStartCooldown": 0,
-    "scid": 72000007
+    "scid": 72000007,
+    "id": 7
   },
   {
     "name": "Training",
@@ -297,7 +302,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000008
+    "scid": 72000008,
+    "id": 8
   },
   {
     "name": "Tournament",
@@ -327,7 +333,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000009
+    "scid": 72000009,
+    "id": 9
   },
   {
     "name": "Challenge",
@@ -357,7 +364,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000010
+    "scid": 72000010,
+    "id": 10
   },
   {
     "name": "DoubleElixir_Friendly",
@@ -394,7 +402,8 @@
     "icon": "icon_mode_2x_elixir",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_DOUBLE_ELIXIR",
     "battleStartCooldown": 0,
-    "scid": 72000011
+    "scid": 72000011,
+    "id": 11
   },
   {
     "name": "BattleRam",
@@ -425,7 +434,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000012
+    "scid": 72000012,
+    "id": 12
   },
   {
     "name": "DraftModeInsane",
@@ -457,8 +467,10 @@
     "gemsPerTower3": 0,
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
+    "icon": "icon_mode_2x_elixir_draft",
     "battleStartCooldown": 0,
-    "scid": 72000013
+    "scid": 72000013,
+    "id": 13
   },
   {
     "name": "TeamVsTeam",
@@ -490,7 +502,8 @@
     "fixedDeckOrder": false,
     "icon": "icon_mode_2v2",
     "battleStartCooldown": 0,
-    "scid": 72000014
+    "scid": 72000014,
+    "id": 14
   },
   {
     "name": "RetroRoyale",
@@ -523,7 +536,8 @@
     "fixedDeckOrder": false,
     "icon": "icon_mode_retro",
     "battleStartCooldown": 0,
-    "scid": 72000015
+    "scid": 72000015,
+    "id": 15
   },
   {
     "name": "CardRelease",
@@ -553,7 +567,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000016
+    "scid": 72000016,
+    "id": 16
   },
   {
     "name": "CardReleaseDraft",
@@ -586,7 +601,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000017
+    "scid": 72000017,
+    "id": 17
   },
   {
     "name": "PvE",
@@ -617,7 +633,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000018
+    "scid": 72000018,
+    "id": 18
   },
   {
     "name": "TvE",
@@ -648,7 +665,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000019
+    "scid": 72000019,
+    "id": 19
   },
   {
     "name": "PvE_Boss",
@@ -679,7 +697,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000020
+    "scid": 72000020,
+    "id": 20
   },
   {
     "name": "PvE_Tutorial",
@@ -710,7 +729,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000021
+    "scid": 72000021,
+    "id": 21
   },
   {
     "name": "TeamVsTeamDraft",
@@ -744,7 +764,8 @@
     "fixedDeckOrder": false,
     "icon": "icon_mode_draft",
     "battleStartCooldown": 0,
-    "scid": 72000022
+    "scid": 72000022,
+    "id": 22
   },
   {
     "name": "TeamVsTeamLadder",
@@ -777,7 +798,8 @@
     "icon": "icon_mode_2v2",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_2V2",
     "battleStartCooldown": 0,
-    "scid": 72000023
+    "scid": 72000023,
+    "id": 23
   },
   {
     "name": "Overtime_Tournament",
@@ -809,7 +831,8 @@
     "fixedDeckOrder": false,
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_OVERTIME",
     "battleStartCooldown": 0,
-    "scid": 72000024
+    "scid": 72000024,
+    "id": 24
   },
   {
     "name": "GoldRush_Tournament",
@@ -844,7 +867,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000025
+    "scid": 72000025,
+    "id": 25
   },
   {
     "name": "TeamVsTeamChallenge",
@@ -875,7 +899,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000026
+    "scid": 72000026,
+    "id": 26
   },
   {
     "name": "TripleElixir_Tournament",
@@ -909,7 +934,8 @@
     "fixedDeckOrder": false,
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_TRIPLE_ELIXIR",
     "battleStartCooldown": 0,
-    "scid": 72000027
+    "scid": 72000027,
+    "id": 27
   },
   {
     "name": "RampUpElixir_Tournament",
@@ -941,7 +967,8 @@
     "fixedDeckOrder": false,
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_RAMP_UP_ELIXIR",
     "battleStartCooldown": 0,
-    "scid": 72000028
+    "scid": 72000028,
+    "id": 28
   },
   {
     "name": "TeamVsTeamCrowns",
@@ -972,7 +999,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000029
+    "scid": 72000029,
+    "id": 29
   },
   {
     "name": "TeamVsTeamDraftChallenge",
@@ -1005,8 +1033,10 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "icon": "icon_mode_draft",
+    "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_DRAFT",
     "battleStartCooldown": 0,
-    "scid": 72000030
+    "scid": 72000030,
+    "id": 30
   },
   {
     "name": "Overtime_Friendly",
@@ -1041,7 +1071,8 @@
     "icon": "icon_mode_suddendeath",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_OVERTIME",
     "battleStartCooldown": 0,
-    "scid": 72000031
+    "scid": 72000031,
+    "id": 31
   },
   {
     "name": "TripleElixir_Friendly",
@@ -1078,7 +1109,8 @@
     "icon": "icon_mode_3x_elixir",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_TRIPLE_ELIXIR",
     "battleStartCooldown": 0,
-    "scid": 72000032
+    "scid": 72000032,
+    "id": 32
   },
   {
     "name": "RampUpElixir_Friendly",
@@ -1113,7 +1145,8 @@
     "icon": "icon_mode_ramp_up",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_RAMP_UP_ELIXIR",
     "battleStartCooldown": 0,
-    "scid": 72000033
+    "scid": 72000033,
+    "id": 33
   },
   {
     "name": "TeamVsTeam_DoubleElixir_Friendly",
@@ -1147,7 +1180,8 @@
     "fixedDeckOrder": false,
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_DOUBLE_ELIXIR",
     "battleStartCooldown": 0,
-    "scid": 72000034
+    "scid": 72000034,
+    "id": 34
   },
   {
     "name": "TeamVsTeam_DoubleElixir_Tournament",
@@ -1179,7 +1213,8 @@
     "fixedDeckOrder": false,
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_DOUBLE_ELIXIR",
     "battleStartCooldown": 0,
-    "scid": 72000035
+    "scid": 72000035,
+    "id": 35
   },
   {
     "name": "TeamVsTeam_Overtime_Friendly",
@@ -1214,7 +1249,8 @@
     "icon": "icon_mode_suddendeath",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_OVERTIME",
     "battleStartCooldown": 0,
-    "scid": 72000036
+    "scid": 72000036,
+    "id": 36
   },
   {
     "name": "TeamVsTeam_Overtime_Tournament",
@@ -1247,7 +1283,8 @@
     "icon": "icon_mode_suddendeath",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_OVERTIME",
     "battleStartCooldown": 0,
-    "scid": 72000037
+    "scid": 72000037,
+    "id": 37
   },
   {
     "name": "TeamVsTeam_RampUpElixir_Friendly",
@@ -1281,7 +1318,8 @@
     "fixedDeckOrder": false,
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_RAMP_UP_ELIXIR",
     "battleStartCooldown": 0,
-    "scid": 72000038
+    "scid": 72000038,
+    "id": 38
   },
   {
     "name": "TeamVsTeam_RampUpElixir_Tournament",
@@ -1313,7 +1351,8 @@
     "fixedDeckOrder": false,
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_RAMP_UP_ELIXIR",
     "battleStartCooldown": 0,
-    "scid": 72000039
+    "scid": 72000039,
+    "id": 39
   },
   {
     "name": "TeamVsTeam_DraftModeInsane_Friendly",
@@ -1346,7 +1385,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000040
+    "scid": 72000040,
+    "id": 40
   },
   {
     "name": "Invalid",
@@ -1376,7 +1416,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000041
+    "scid": 72000041,
+    "id": 41
   },
   {
     "name": "PickMode",
@@ -1407,7 +1448,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000042
+    "scid": 72000042,
+    "id": 42
   },
   {
     "name": "TeamVsTeamLadder_GoldRush",
@@ -1442,7 +1484,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000043
+    "scid": 72000043,
+    "id": 43
   },
   {
     "name": "Ladder_GoldRush",
@@ -1477,7 +1520,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000044
+    "scid": 72000044,
+    "id": 44
   },
   {
     "name": "Touchdown",
@@ -1514,7 +1558,8 @@
     "fixedArena": "Arena_TouchdownTest",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_2v2_TOUCHDOWN_DRAFT",
     "battleStartCooldown": 0,
-    "scid": 72000045
+    "scid": 72000045,
+    "id": 45
   },
   {
     "name": "TeamVsTeamLadder_GemRush",
@@ -1549,7 +1594,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000046
+    "scid": 72000046,
+    "id": 46
   },
   {
     "name": "Ladder_GemRush",
@@ -1584,7 +1630,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000047
+    "scid": 72000047,
+    "id": 47
   },
   {
     "name": "GemRush_Tournament",
@@ -1619,7 +1666,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000048
+    "scid": 72000048,
+    "id": 48
   },
   {
     "name": "TeamVsTeam_Touchdown",
@@ -1655,7 +1703,8 @@
     "fixedArena": "Arena_TouchdownTest",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_2v2_TOUCHDOWN_DRAFT",
     "battleStartCooldown": 0,
-    "scid": 72000049
+    "scid": 72000049,
+    "id": 49
   },
   {
     "name": "Touchdown_Draft",
@@ -1691,7 +1740,8 @@
     "icon": "icon_mode_touchdown",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_2v2_TOUCHDOWN_DRAFT",
     "battleStartCooldown": 0,
-    "scid": 72000050
+    "scid": 72000050,
+    "id": 50
   },
   {
     "name": "TeamVsTeam_Touchdown_Draft",
@@ -1728,7 +1778,8 @@
     "fixedArena": "Arena_TouchdownTest",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_2v2_TOUCHDOWN_DRAFT",
     "battleStartCooldown": 0,
-    "scid": 72000051
+    "scid": 72000051,
+    "id": 51
   },
   {
     "name": "MirrorDeck",
@@ -1766,7 +1817,8 @@
     "icon": "icon_mode_mirror",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_MIRROR",
     "battleStartCooldown": 6000,
-    "scid": 72000052
+    "scid": 72000052,
+    "id": 52
   },
   {
     "name": "TeamVsTeam_MirrorDeck",
@@ -1804,7 +1856,8 @@
     "icon": "icon_mode_mirror",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_MIRROR",
     "battleStartCooldown": 0,
-    "scid": 72000053
+    "scid": 72000053,
+    "id": 53
   },
   {
     "name": "Friendly_FixedDeckOrder",
@@ -1838,7 +1891,8 @@
     "fixedDeckOrder": true,
     "icon": "icon_mode_1v1",
     "battleStartCooldown": 0,
-    "scid": 72000054
+    "scid": 72000054,
+    "id": 54
   },
   {
     "name": "TeamVsTeam_FixedDeckOrder",
@@ -1872,7 +1926,8 @@
     "fixedDeckOrder": true,
     "icon": "icon_mode_2v2",
     "battleStartCooldown": 0,
-    "scid": 72000055
+    "scid": 72000055,
+    "id": 55
   },
   {
     "name": "MirrorDeck_H",
@@ -1910,7 +1965,8 @@
     "icon": "icon_mode_mirror",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_MIRROR",
     "battleStartCooldown": 0,
-    "scid": 72000056
+    "scid": 72000056,
+    "id": 56
   },
   {
     "name": "TeamVsTeam_MirrorDeck_H",
@@ -1948,7 +2004,8 @@
     "icon": "icon_mode_mirror",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_MIRROR",
     "battleStartCooldown": 0,
-    "scid": 72000057
+    "scid": 72000057,
+    "id": 57
   },
   {
     "name": "KingOfTheHill",
@@ -1981,7 +2038,8 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "battleStartCooldown": 0,
-    "scid": 72000058
+    "scid": 72000058,
+    "id": 58
   },
   {
     "name": "ModernRoyale",
@@ -2014,7 +2072,8 @@
     "fixedDeckOrder": false,
     "icon": "icon_mode_retro",
     "battleStartCooldown": 0,
-    "scid": 72000059
+    "scid": 72000059,
+    "id": 59
   },
   {
     "name": "Overtime_Ladder",
@@ -2049,7 +2108,8 @@
     "icon": "icon_mode_suddendeath",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_OVERTIME",
     "battleStartCooldown": 0,
-    "scid": 72000060
+    "scid": 72000060,
+    "id": 60
   },
   {
     "name": "DoubleElixir_Ladder",
@@ -2086,7 +2146,8 @@
     "icon": "icon_mode_2x_elixir",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_DOUBLE_ELIXIR",
     "battleStartCooldown": 0,
-    "scid": 72000061
+    "scid": 72000061,
+    "id": 61
   },
   {
     "name": "TripleElixir_Ladder",
@@ -2123,7 +2184,8 @@
     "icon": "icon_mode_3x_elixir",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_TRIPLE_ELIXIR",
     "battleStartCooldown": 0,
-    "scid": 72000062
+    "scid": 72000062,
+    "id": 62
   },
   {
     "name": "NOTINUSE1",
@@ -2157,7 +2219,8 @@
     "fixedDeckOrder": false,
     "icon": "icon_mode_2x_elixir",
     "battleStartCooldown": 0,
-    "scid": 72000063
+    "scid": 72000063,
+    "id": 63
   },
   {
     "name": "NOTINUSE2",
@@ -2191,7 +2254,8 @@
     "fixedDeckOrder": false,
     "icon": "icon_mode_2x_elixir",
     "battleStartCooldown": 0,
-    "scid": 72000064
+    "scid": 72000064,
+    "id": 64
   },
   {
     "name": "Showdown_Friendly",
@@ -2224,7 +2288,8 @@
     "icon": "icon_clan_wars",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_SHOWDOWN",
     "battleStartCooldown": 0,
-    "scid": 72000065
+    "scid": 72000065,
+    "id": 65
   },
   {
     "name": "Showdown_Ladder",
@@ -2257,7 +2322,8 @@
     "icon": "icon_clan_wars",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_SHOWDOWN",
     "battleStartCooldown": 0,
-    "scid": 72000066
+    "scid": 72000066,
+    "id": 66
   },
   {
     "name": "TeamVsTeam_DoubleElixir_Ladder",
@@ -2292,7 +2358,8 @@
     "icon": "icon_mode_2x_elixir",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_DOUBLE_ELIXIR",
     "battleStartCooldown": 0,
-    "scid": 72000067
+    "scid": 72000067,
+    "id": 67
   },
   {
     "name": "TeamVsTeam_Overtime_Ladder",
@@ -2327,7 +2394,8 @@
     "icon": "icon_mode_suddendeath",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_OVERTIME",
     "battleStartCooldown": 0,
-    "scid": 72000068
+    "scid": 72000068,
+    "id": 68
   },
   {
     "name": "CaptureTower_Friendly",
@@ -2361,7 +2429,8 @@
     "fixedDeckOrder": false,
     "icon": "icon_mode_suddendeath",
     "battleStartCooldown": 0,
-    "scid": 72000069
+    "scid": 72000069,
+    "id": 69
   },
   {
     "name": "RampUpElixir_Ladder",
@@ -2396,7 +2465,8 @@
     "icon": "icon_mode_ramp_up",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_RAMP_UP_ELIXIR",
     "battleStartCooldown": 0,
-    "scid": 72000070
+    "scid": 72000070,
+    "id": 70
   },
   {
     "name": "Rage_Friendly",
@@ -2433,7 +2503,8 @@
     "battleStartCooldown": 0,
     "globalBuff": "RageModeRage",
     "loopingEffect": "Rage_mode",
-    "scid": 72000071
+    "scid": 72000071,
+    "id": 71
   },
   {
     "name": "MirrorDeck_CW",
@@ -2471,7 +2542,8 @@
     "icon": "icon_mode_mirror",
     "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_MIRROR",
     "battleStartCooldown": 6000,
-    "scid": 72000072
+    "scid": 72000072,
+    "id": 72
   },
   {
     "name": "Rage_Ladder",
@@ -2505,10 +2577,12 @@
     "fixedDeckOrder": false,
     "icon": "icon_mode_rage",
     "fixedArena": "Arena5",
+    "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_RAGE",
     "battleStartCooldown": 0,
     "globalBuff": "RageModeRage",
     "loopingEffect": "Rage_mode",
-    "scid": 72000073
+    "scid": 72000073,
+    "id": 73
   },
   {
     "name": "LavaFloor_Friendly",
@@ -2545,7 +2619,8 @@
     "battleStartCooldown": 0,
     "globalBuff": "PoisonModePoison",
     "loopingEffect": "LavaFloor_mode",
-    "scid": 72000074
+    "scid": 72000074,
+    "id": 74
   },
   {
     "name": "Event_NewArena1",
@@ -2579,7 +2654,8 @@
     "icon": "icon_mode_retro",
     "fixedArena": "Arena1",
     "battleStartCooldown": 0,
-    "scid": 72000075
+    "scid": 72000075,
+    "id": 75
   },
   {
     "name": "Event_NewArena2",
@@ -2613,7 +2689,8 @@
     "icon": "icon_mode_retro",
     "fixedArena": "Arena2",
     "battleStartCooldown": 0,
-    "scid": 72000076
+    "scid": 72000076,
+    "id": 76
   },
   {
     "name": "Event_NewArena3",
@@ -2647,7 +2724,8 @@
     "icon": "icon_mode_retro",
     "fixedArena": "Arena3",
     "battleStartCooldown": 0,
-    "scid": 72000077
+    "scid": 72000077,
+    "id": 77
   },
   {
     "name": "Event_NewArena4",
@@ -2681,7 +2759,8 @@
     "icon": "icon_mode_retro",
     "fixedArena": "Arena4",
     "battleStartCooldown": 0,
-    "scid": 72000078
+    "scid": 72000078,
+    "id": 78
   },
   {
     "name": "Event_NewArena5",
@@ -2715,7 +2794,8 @@
     "icon": "icon_mode_retro",
     "fixedArena": "Arena5",
     "battleStartCooldown": 0,
-    "scid": 72000079
+    "scid": 72000079,
+    "id": 79
   },
   {
     "name": "Event_NewArena6",
@@ -2749,7 +2829,8 @@
     "icon": "icon_mode_retro",
     "fixedArena": "Arena6",
     "battleStartCooldown": 0,
-    "scid": 72000080
+    "scid": 72000080,
+    "id": 80
   },
   {
     "name": "Event_NewArena7",
@@ -2783,7 +2864,8 @@
     "icon": "icon_mode_retro",
     "fixedArena": "Arena7",
     "battleStartCooldown": 0,
-    "scid": 72000081
+    "scid": 72000081,
+    "id": 81
   },
   {
     "name": "Event_NewArena8",
@@ -2817,7 +2899,8 @@
     "icon": "icon_mode_retro",
     "fixedArena": "Arena8",
     "battleStartCooldown": 0,
-    "scid": 72000082
+    "scid": 72000082,
+    "id": 82
   },
   {
     "name": "Event_NewArena9",
@@ -2851,7 +2934,8 @@
     "icon": "icon_mode_retro",
     "fixedArena": "Arena9",
     "battleStartCooldown": 0,
-    "scid": 72000083
+    "scid": 72000083,
+    "id": 83
   },
   {
     "name": "Event_NewArena10",
@@ -2885,7 +2969,8 @@
     "icon": "icon_mode_retro",
     "fixedArena": "Arena_L",
     "battleStartCooldown": 0,
-    "scid": 72000084
+    "scid": 72000084,
+    "id": 84
   },
   {
     "name": "Event_NewArena11",
@@ -2919,7 +3004,8 @@
     "icon": "icon_mode_retro",
     "fixedArena": "Arena_Electric",
     "battleStartCooldown": 0,
-    "scid": 72000085
+    "scid": 72000085,
+    "id": 85
   },
   {
     "name": "Rage_Tournament",
@@ -2956,10 +3042,11 @@
     "battleStartCooldown": 0,
     "globalBuff": "RageModeRage",
     "loopingEffect": "Rage_mode",
-    "scid": 72000086
+    "scid": 72000086,
+    "id": 86
   },
   {
-    "name": "PopularDecks_Friendly",
+    "name": "ClassicDecks_Friendly",
     "TID": "TID_POPULAR_DECK_BATTLE",
     "requestTID": "TID_REQUEST_POPULAR_1V1",
     "inProgressTID": "TID_POPULAR_1V1_IN_PROGRESS",
@@ -2968,18 +3055,18 @@
     "deckSelection": "Predefined",
     "overtimeSeconds": 180,
     "predefinedDecks": [
-      "Blind_Popular1",
-      "Blind_Popular2",
-      "Blind_Popular3",
-      "Blind_Popular4",
-      "Blind_Popular5",
-      "Blind_Popular6",
-      "Blind_Popular7",
-      "Blind_Popular8",
-      "Blind_Popular9",
-      "Blind_Popular10",
-      "Blind_Popular11",
-      "Blind_Popular12"
+      "Blind_Classic_1",
+      "Blind_Classic_2",
+      "Blind_Classic_3",
+      "Blind_Classic_4",
+      "Blind_Classic_5",
+      "Blind_Classic_6",
+      "Blind_Classic_7",
+      "Blind_Classic_8",
+      "Blind_Classic_9",
+      "Blind_Classic_10",
+      "Blind_Classic_11",
+      "Blind_Classic_12"
     ],
     "sameDeckOnBoth": false,
     "separateTeamDecks": true,
@@ -3003,7 +3090,48 @@
     "targetTouchdowns": 0,
     "fixedDeckOrder": false,
     "icon": "icon_mode_popdeck",
+    "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_CLASSIC_DECKS",
     "battleStartCooldown": 6000,
-    "scid": 72000087
+    "scid": 72000087,
+    "id": 87
+  },
+  {
+    "name": "TeamVsTeam_Rage_Ladder",
+    "TID": "TID_GAMEMODE_RAGE",
+    "requestTID": "TID_REQUEST_RAGE_2V2",
+    "inProgressTID": "TID_RAGE_2V2_IN_PROGRESS",
+    "cardLevelAdjustment": "Ladder",
+    "playerCount": 0,
+    "deckSelection": "Collection",
+    "overtimeSeconds": 180,
+    "sameDeckOnBoth": false,
+    "separateTeamDecks": false,
+    "swappingTowers": false,
+    "elixirCostModifier": 0,
+    "elixirProductionMultiplier": 115,
+    "elixirProductionOvertimeMultiplier": 85,
+    "useStartingElixir": false,
+    "startingElixir": 0,
+    "elixirModifier": 0,
+    "heroes": false,
+    "players": "TvT",
+    "forcedDeckCardsUsingCardTheme": false,
+    "givesClanScore": false,
+    "goldPerTower1": 0,
+    "goldPerTower2": 0,
+    "goldPerTower3": 0,
+    "gemsPerTower1": 0,
+    "gemsPerTower2": 0,
+    "gemsPerTower3": 0,
+    "targetTouchdowns": 0,
+    "fixedDeckOrder": false,
+    "icon": "icon_mode_rage",
+    "fixedArena": "Arena5",
+    "clanWarDescription": "TID_CLAN_WAR_GAME_MODE_INFO_1V1_RAGE",
+    "battleStartCooldown": 0,
+    "globalBuff": "RageModeRage",
+    "loopingEffect": "Rage_mode",
+    "scid": 72000088,
+    "id": 88
   }
 ]

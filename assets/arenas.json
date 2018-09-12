@@ -29,7 +29,8 @@
     "battleRewardGold": 5,
     "questCycle": "Quests_TrainingCamp",
     "disableIn2v2": false,
-    "scid": 54000000
+    "scid": 54000000,
+    "id": 0
   },
   {
     "name": "Arena1",
@@ -61,7 +62,8 @@
     "battleRewardGold": 5,
     "questCycle": "Quests_Arena1",
     "disableIn2v2": false,
-    "scid": 54000001
+    "scid": 54000001,
+    "id": 1
   },
   {
     "name": "Arena2",
@@ -93,7 +95,8 @@
     "battleRewardGold": 7,
     "questCycle": "Quests_Arena2",
     "disableIn2v2": false,
-    "scid": 54000002
+    "scid": 54000002,
+    "id": 2
   },
   {
     "name": "Arena3",
@@ -126,7 +129,8 @@
     "questCycle": "Quests_Arena3",
     "forceQuestChestCycle": "Quest_arena3_super",
     "disableIn2v2": false,
-    "scid": 54000003
+    "scid": 54000003,
+    "id": 3
   },
   {
     "name": "Arena4",
@@ -158,7 +162,8 @@
     "battleRewardGold": 11,
     "questCycle": "Quests_Arena4",
     "disableIn2v2": false,
-    "scid": 54000004
+    "scid": 54000004,
+    "id": 4
   },
   {
     "name": "Arena5",
@@ -190,7 +195,8 @@
     "battleRewardGold": 12,
     "questCycle": "Quests_Arena5",
     "disableIn2v2": false,
-    "scid": 54000005
+    "scid": 54000005,
+    "id": 5
   },
   {
     "name": "Arena6",
@@ -222,7 +228,8 @@
     "battleRewardGold": 14,
     "questCycle": "Quests_Arena6",
     "disableIn2v2": false,
-    "scid": 54000006
+    "scid": 54000006,
+    "id": 6
   },
   {
     "name": "Arena_L",
@@ -254,7 +261,8 @@
     "battleRewardGold": 20,
     "questCycle": "Quests_Arena_L",
     "disableIn2v2": false,
-    "scid": 54000007
+    "scid": 54000007,
+    "id": 7
   },
   {
     "name": "Arena7",
@@ -286,7 +294,8 @@
     "battleRewardGold": 15,
     "questCycle": "Quests_Arena7",
     "disableIn2v2": false,
-    "scid": 54000008
+    "scid": 54000008,
+    "id": 8
   },
   {
     "name": "Arena8",
@@ -318,7 +327,8 @@
     "battleRewardGold": 16,
     "questCycle": "Quests_Arena8",
     "disableIn2v2": false,
-    "scid": 54000009
+    "scid": 54000009,
+    "id": 9
   },
   {
     "name": "Arena9",
@@ -350,7 +360,8 @@
     "battleRewardGold": 18,
     "questCycle": "Quests_Arena9",
     "disableIn2v2": false,
-    "scid": 54000010
+    "scid": 54000010,
+    "id": 10
   },
   {
     "name": "Arena_T",
@@ -382,7 +393,8 @@
     "battleRewardGold": 24,
     "questCycle": "Quests_Arena_T",
     "disableIn2v2": false,
-    "scid": 54000011
+    "scid": 54000011,
+    "id": 11
   },
   {
     "name": "Arena_L1",
@@ -416,7 +428,8 @@
     "seasonRewardChest": "SeasonReward_L1",
     "questCycle": "Quests_Arena_T",
     "disableIn2v2": true,
-    "scid": 54000012
+    "scid": 54000012,
+    "id": 12
   },
   {
     "name": "Arena_L2",
@@ -450,7 +463,8 @@
     "seasonRewardChest": "SeasonReward_L2",
     "questCycle": "Quests_Arena_T",
     "disableIn2v2": true,
-    "scid": 54000013
+    "scid": 54000013,
+    "id": 13
   },
   {
     "name": "Arena_L3",
@@ -484,7 +498,8 @@
     "seasonRewardChest": "SeasonReward_L3",
     "questCycle": "Quests_Arena_T",
     "disableIn2v2": true,
-    "scid": 54000014
+    "scid": 54000014,
+    "id": 14
   },
   {
     "name": "Arena_L4",
@@ -518,7 +533,8 @@
     "seasonRewardChest": "SeasonReward_L4",
     "questCycle": "Quests_Arena_T",
     "disableIn2v2": true,
-    "scid": 54000015
+    "scid": 54000015,
+    "id": 15
   },
   {
     "name": "Arena_L5",
@@ -552,7 +568,8 @@
     "seasonRewardChest": "SeasonReward_L5",
     "questCycle": "Quests_Arena_T",
     "disableIn2v2": true,
-    "scid": 54000016
+    "scid": 54000016,
+    "id": 16
   },
   {
     "name": "Arena_L6",
@@ -586,7 +603,8 @@
     "seasonRewardChest": "SeasonReward_L6",
     "questCycle": "Quests_Arena_T",
     "disableIn2v2": true,
-    "scid": 54000017
+    "scid": 54000017,
+    "id": 17
   },
   {
     "name": "Arena_L7",
@@ -620,7 +638,8 @@
     "seasonRewardChest": "SeasonReward_L7",
     "questCycle": "Quests_Arena_T",
     "disableIn2v2": true,
-    "scid": 54000018
+    "scid": 54000018,
+    "id": 18
   },
   {
     "name": "Arena_L8",
@@ -654,7 +673,8 @@
     "seasonRewardChest": "SeasonReward_L8",
     "questCycle": "Quests_Arena_T",
     "disableIn2v2": true,
-    "scid": 54000019
+    "scid": 54000019,
+    "id": 19
   },
   {
     "name": "Arena_L9",
@@ -688,7 +708,8 @@
     "seasonRewardChest": "SeasonReward_L9",
     "questCycle": "Quests_Arena_T",
     "disableIn2v2": true,
-    "scid": 54000020
+    "scid": 54000020,
+    "id": 20
   },
   {
     "name": "ArenaPvE",
@@ -719,7 +740,8 @@
     "battleRewardGold": 0,
     "questCycle": "Quests_Arena_T",
     "disableIn2v2": false,
-    "scid": 54000021
+    "scid": 54000021,
+    "id": 21
   },
   {
     "name": "ArenaTvE",
@@ -750,7 +772,8 @@
     "battleRewardGold": 0,
     "questCycle": "Quests_Arena_T",
     "disableIn2v2": false,
-    "scid": 54000022
+    "scid": 54000022,
+    "id": 22
   },
   {
     "name": "Arena_TouchdownTest",
@@ -782,7 +805,8 @@
     "battleRewardGold": 15,
     "questCycle": "Quests_Arena_T",
     "disableIn2v2": false,
-    "scid": 54000023
+    "scid": 54000023,
+    "id": 23
   },
   {
     "name": "Arena_Electric",
@@ -814,7 +838,8 @@
     "battleRewardGold": 22,
     "questCycle": "Quests_Arena_Electric",
     "disableIn2v2": false,
-    "scid": 54000024
+    "scid": 54000024,
+    "id": 24
   },
   {
     "name": "Arena_KingOfTheHillTest",
@@ -846,7 +871,8 @@
     "battleRewardGold": 0,
     "questCycle": "Quests_Arena_T",
     "disableIn2v2": false,
-    "scid": 54000025
+    "scid": 54000025,
+    "id": 25
   },
   {
     "name": "Arena_KingOfTheHillTest2",
@@ -877,7 +903,8 @@
     "battleRewardGold": 0,
     "questCycle": "Quests_Arena_T",
     "disableIn2v2": false,
-    "scid": 54000026
+    "scid": 54000026,
+    "id": 26
   },
   {
     "name": "ArenaClanWars1",
@@ -908,7 +935,8 @@
     "battleRewardGold": 20,
     "questCycle": "Quests_Arena_L",
     "disableIn2v2": false,
-    "scid": 54000027
+    "scid": 54000027,
+    "id": 27
   },
   {
     "name": "ArenaClanWars2",
@@ -939,7 +967,8 @@
     "battleRewardGold": 20,
     "questCycle": "Quests_Arena_L",
     "disableIn2v2": false,
-    "scid": 54000028
+    "scid": 54000028,
+    "id": 28
   },
   {
     "name": "ArenaClanWars3",
@@ -970,7 +999,8 @@
     "battleRewardGold": 20,
     "questCycle": "Quests_Arena_L",
     "disableIn2v2": false,
-    "scid": 54000029
+    "scid": 54000029,
+    "id": 29
   },
   {
     "name": "ArenaClanWars4",
@@ -1001,6 +1031,7 @@
     "battleRewardGold": 20,
     "questCycle": "Quests_Arena_L",
     "disableIn2v2": false,
-    "scid": 54000030
+    "scid": 54000030,
+    "id": 30
   }
 ]
