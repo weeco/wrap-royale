@@ -384,15 +384,6 @@ describe('CR Api', () => {
       }).timeout(7000);
 
       // tslint:disable-next-line:mocha-no-side-effect-code
-      it("should return a clan's top players by contributed clan chest points", async () => {
-        const profile: ClanProfile = await api.clanProfile('82V9V');
-        const topContributors: ClanMember[] = profile.getTopMembersByChestPoints(5);
-        expect(topContributors)
-          .to.be.an('array')
-          .with.length(5);
-      }).timeout(7000);
-
-      // tslint:disable-next-line:mocha-no-side-effect-code
       it("should return a clan's country code", async () => {
         const profile: ClanProfile = await api.clanProfile('2PPP');
         expect(profile.location.getLocationDetails().countryCode).to.equal('SE');
